@@ -1,0 +1,1 @@
+/usr/lib64/ccache/c++  -g   CMakeFiles/Template.dir/main.cpp.o  -o Template 
