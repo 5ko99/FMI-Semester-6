@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/petko/workspace/playground/code/factorial.cpp
+factorial.h
+/home/petko/workspace/playground/code/factorial.h
+
+/home/petko/workspace/playground/code/factorial.h
+

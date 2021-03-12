@@ -1,0 +1,1 @@
+/usr/lib64/ccache/c++  -g   CMakeFiles/testing.dir/tests/catch2/catch2.cpp.o CMakeFiles/testing.dir/factorial.cpp.o CMakeFiles/testing.dir/tests/tests.cpp.o  -o testing 

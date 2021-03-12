@@ -1,0 +1,1 @@
+/usr/lib64/ccache/c++  -g   CMakeFiles/code.dir/main.cpp.o CMakeFiles/code.dir/factorial.cpp.o  -o code 

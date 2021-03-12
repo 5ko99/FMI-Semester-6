@@ -1,0 +1,1 @@
+/usr/lib64/ccache/c++  -g   CMakeFiles/StudentsAndTeachers.dir/main.cpp.o CMakeFiles/StudentsAndTeachers.dir/Student.cpp.o CMakeFiles/StudentsAndTeachers.dir/DynamicArray.cpp.o  -o StudentsAndTeachers 

@@ -1,0 +1,8 @@
+/home/petko/workspace/playground/solutionTesting/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/petko/workspace/playground/solutionTesting/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/petko/workspace/playground/solutionTesting/cmake-build-debug/code/CMakeFiles/rebuild_cache.dir
+/home/petko/workspace/playground/solutionTesting/cmake-build-debug/code/CMakeFiles/edit_cache.dir
+/home/petko/workspace/playground/solutionTesting/cmake-build-debug/code/CMakeFiles/code.dir
+/home/petko/workspace/playground/solutionTesting/cmake-build-debug/testing/CMakeFiles/rebuild_cache.dir
+/home/petko/workspace/playground/solutionTesting/cmake-build-debug/testing/CMakeFiles/edit_cache.dir
+/home/petko/workspace/playground/solutionTesting/cmake-build-debug/testing/CMakeFiles/testing.dir
