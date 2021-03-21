@@ -1,0 +1,14 @@
+//
+// Created by petko on 13/03/2021.
+//
+
+#ifndef STUDENTSANDTEACHERS_RETIREDTEACHER_H
+#define STUDENTSANDTEACHERS_RETIREDTEACHER_H
+
+
+class RetiredTeacher {
+
+};
+
+
+#endif //STUDENTSANDTEACHERS_RETIREDTEACHER_H
