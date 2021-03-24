@@ -236,10 +236,10 @@ record _*_ (A : Set) (B : Set) : Set where
 -- you'll need ==-symm, ==-trans, +N-right-zero and +N-right-suc here
 +N-commut : (n m : Nat) -> n +N m == m +N n
 +N-commut zero m = ==-symm (+N-right-zero m)
-+N-commut (suc n) m = ==-trans (+N-right-suc n m) {! +N-right-suc m n  !}
++N-commut (suc n) m = ==-trans (ap suc (+N-commut n m)) (+N-right-suc m n)
 
 
-{--
+
 data List (a : Set) : Set where
   [] : List a
   _,-_ : a -> List a -> List a
@@ -248,7 +248,9 @@ infixr 11 _,-_
 
 -- concatenate two lists
 _+L_ : {A : Set} -> List A -> List A -> List A
-xs +L ys = {!!}
+[] +L ys = ys
+(x ,- xs) +L ys = x ,- (xs +L ys)
+
 
 _ : (3 ,- 5 ,- []) +L  (4 ,- 2 ,- []) == 3 ,- 5 ,- 4 ,- 2 ,- []
 _ = refl _
@@ -258,15 +260,22 @@ _ = refl _
 
 infixr 12 _+L_
 
+
+
 +L-assoc : {A : Set} (xs ys zs : List A) -> (xs +L ys) +L zs == xs +L ys +L zs
-+L-assoc xs ys zs = {!!}
++L-assoc [] ys zs = refl (ys +L zs)
++L-assoc (x ,- xs) ys zs = ap ( x ,-_) (+L-assoc xs ys zs)
 
 +L-right-id : {A : Set} (xs : List A) -> xs +L [] == xs
-+L-right-id = {!!}
++L-right-id [] = refl []
++L-right-id (x ,- xs) = ap (x ,-_) (+L-right-id xs)
+
+
 
 -- calculate the length of a list
 length : {A : Set} -> List A -> Nat
-length = {!!}
+length [] = 0
+length (x ,- x1) = suc (length x1)
 
 _ : length (<> ,- []) == 1
 _ = refl _
@@ -276,7 +285,8 @@ _ = refl _
 
 -- create a list of only the given element, with length the given Nat
 replicate : {A : Set} -> Nat -> A -> List A
-replicate = {!!}
+replicate zero x = []
+replicate (suc n) x = x ,- replicate n x
 
 _ : replicate 2 <> == <> ,- <> ,- []
 _ = refl _
@@ -286,25 +296,38 @@ _ = refl _
 
 -- prove that the length of the replicated list is the original input number to replicate
 length-replicate : {A : Set} {x : A} (n : Nat) -> length (replicate n x) == n
-length-replicate = {!!}
+length-replicate zero = refl zero
+length-replicate (suc n) = ap suc (length-replicate n)
 
 -- define All to calculate the type which that is inhabited when
 -- P is true for all the elements of the given list
 All : {X : Set} (P : X -> Set) -> List X -> Set
-All = {!!}
+All P [] = One
+All P (x ,- x1) = P x * All P x1
+
+_ : All Even (2 ,- 4 ,- 8 ,- [])
+_ = <> , (<> , (<> , <>))
+
+_ : All Even (88 ,- [])
+_ = <> , <>
+
 
 -- prove that all of the elements of the result of replicate
 -- are the same as the original element given to replicate
 replicate-all-==-orig : {A : Set} {x : A} (n : Nat) -> All (_== x) (replicate n x)
-replicate-all-==-orig = {!!}
+replicate-all-==-orig zero = <>
+replicate-all-==-orig (suc n) = (refl _) , (replicate-all-==-orig n)
 -- this actually isn't necessary thanks to parametricity, but anyway
 
 double : Nat -> Nat
-double = {!!}
+double zero = zero
+double (suc n) = suc (suc (double n))
+
 
 doubleIsEven : (n : Nat) -> Even (double n)
-doubleIsEven = {!!}
-
+doubleIsEven zero = <>
+doubleIsEven (suc n')  = doubleIsEven n'
+{--
 
 -- every natural number is either Even or Odd
 decEvenOrOdd : (n : Nat) -> Even n + Odd n
