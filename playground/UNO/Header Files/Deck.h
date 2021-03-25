@@ -14,8 +14,8 @@ public:
 	Deck(const Deck& other);
 	~Deck();
 	Deck& operator=(const Deck& other);
-	Card& operator[](const size_t idx);
-	const Card& operator[](const size_t idx) const;
+	Card& operator[](size_t idx);
+	const Card& operator[](size_t idx) const;
 
 private:
 	void create(const size_t deckSize);

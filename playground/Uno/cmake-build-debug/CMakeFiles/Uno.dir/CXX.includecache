@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/petko/workspace/FMI-Semester-6/playground/Uno/CardBody.cpp
+iostream
+-
+Cards.h
+/home/petko/workspace/FMI-Semester-6/playground/Uno/Cards.h
+
+/home/petko/workspace/FMI-Semester-6/playground/Uno/Cards.h
+
+/home/petko/workspace/FMI-Semester-6/playground/Uno/Game.cpp
+iostream
+-
+cstdlib
+-
+time.h
+-
+Game.h
+/home/petko/workspace/FMI-Semester-6/playground/Uno/Game.h
+
+/home/petko/workspace/FMI-Semester-6/playground/Uno/Game.h
+Player.h
+/home/petko/workspace/FMI-Semester-6/playground/Uno/Player.h
+
+/home/petko/workspace/FMI-Semester-6/playground/Uno/Player.cpp
+Player.h
+/home/petko/workspace/FMI-Semester-6/playground/Uno/Player.h
+
+/home/petko/workspace/FMI-Semester-6/playground/Uno/Player.h
+Cards.h
+/home/petko/workspace/FMI-Semester-6/playground/Uno/Cards.h
+
