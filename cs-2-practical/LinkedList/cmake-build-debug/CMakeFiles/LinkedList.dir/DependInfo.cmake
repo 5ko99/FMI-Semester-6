@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/List.cpp" "/home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/cmake-build-debug/CMakeFiles/LinkedList.dir/List.cpp.o"
-  "/home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/ListIterator.cpp" "/home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/cmake-build-debug/CMakeFiles/LinkedList.dir/ListIterator.cpp.o"
-  "/home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/Node.cpp" "/home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/cmake-build-debug/CMakeFiles/LinkedList.dir/Node.cpp.o"
-  "/home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/main.cpp" "/home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/cmake-build-debug/CMakeFiles/LinkedList.dir/main.cpp.o"
+  "/home/petko/workspace/FMI-Semester-6/cs-2-practical/LinkedList/List.cpp" "/home/petko/workspace/FMI-Semester-6/cs-2-practical/LinkedList/cmake-build-debug/CMakeFiles/LinkedList.dir/List.cpp.o"
+  "/home/petko/workspace/FMI-Semester-6/cs-2-practical/LinkedList/ListIterator.cpp" "/home/petko/workspace/FMI-Semester-6/cs-2-practical/LinkedList/cmake-build-debug/CMakeFiles/LinkedList.dir/ListIterator.cpp.o"
+  "/home/petko/workspace/FMI-Semester-6/cs-2-practical/LinkedList/Node.cpp" "/home/petko/workspace/FMI-Semester-6/cs-2-practical/LinkedList/cmake-build-debug/CMakeFiles/LinkedList.dir/Node.cpp.o"
+  "/home/petko/workspace/FMI-Semester-6/cs-2-practical/LinkedList/main.cpp" "/home/petko/workspace/FMI-Semester-6/cs-2-practical/LinkedList/cmake-build-debug/CMakeFiles/LinkedList.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

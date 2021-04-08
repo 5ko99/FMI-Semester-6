@@ -6,23 +6,37 @@
 
 #IncludeRegexTransform: 
 
-/home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/List.cpp
+/home/petko/workspace/FMI-Semester-6/cs-2-practical/LinkedList/List.cpp
 List.h
-/home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/List.h
+/home/petko/workspace/FMI-Semester-6/cs-2-practical/LinkedList/List.h
 iostream
 -
 
-/home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/List.h
+/home/petko/workspace/FMI-Semester-6/cs-2-practical/LinkedList/List.h
 cstdio
 -
 Node.h
-/home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/Node.h
+/home/petko/workspace/FMI-Semester-6/cs-2-practical/LinkedList/Node.h
 ListIterator.h
-/home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/ListIterator.h
+/home/petko/workspace/FMI-Semester-6/cs-2-practical/LinkedList/ListIterator.h
 
-/home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/ListIterator.h
+/home/petko/workspace/FMI-Semester-6/cs-2-practical/LinkedList/ListIterator.cpp
+ListIterator.h
+/home/petko/workspace/FMI-Semester-6/cs-2-practical/LinkedList/ListIterator.h
+
+/home/petko/workspace/FMI-Semester-6/cs-2-practical/LinkedList/ListIterator.h
 Node.h
-/home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/Node.h
+/home/petko/workspace/FMI-Semester-6/cs-2-practical/LinkedList/Node.h
 
-/home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/Node.h
+/home/petko/workspace/FMI-Semester-6/cs-2-practical/LinkedList/Node.cpp
+Node.h
+/home/petko/workspace/FMI-Semester-6/cs-2-practical/LinkedList/Node.h
+
+/home/petko/workspace/FMI-Semester-6/cs-2-practical/LinkedList/Node.h
+
+/home/petko/workspace/FMI-Semester-6/cs-2-practical/LinkedList/main.cpp
+iostream
+-
+List.h
+/home/petko/workspace/FMI-Semester-6/cs-2-practical/LinkedList/List.h
 

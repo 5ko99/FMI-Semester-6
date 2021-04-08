@@ -63,10 +63,10 @@ RM = /var/lib/snapd/snap/clion/145/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList
+CMAKE_SOURCE_DIR = /home/petko/workspace/FMI-Semester-6/cs-2-practical/LinkedList
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/cmake-build-debug
+CMAKE_BINARY_DIR = /home/petko/workspace/FMI-Semester-6/cs-2-practical/LinkedList/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/LinkedList.dir/depend.make
@@ -79,55 +79,55 @@ include CMakeFiles/LinkedList.dir/flags.make
 
 CMakeFiles/LinkedList.dir/main.cpp.o: CMakeFiles/LinkedList.dir/flags.make
 CMakeFiles/LinkedList.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LinkedList.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LinkedList.dir/main.cpp.o -c /home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/petko/workspace/FMI-Semester-6/cs-2-practical/LinkedList/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LinkedList.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LinkedList.dir/main.cpp.o -c /home/petko/workspace/FMI-Semester-6/cs-2-practical/LinkedList/main.cpp
 
 CMakeFiles/LinkedList.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LinkedList.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/main.cpp > CMakeFiles/LinkedList.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/petko/workspace/FMI-Semester-6/cs-2-practical/LinkedList/main.cpp > CMakeFiles/LinkedList.dir/main.cpp.i
 
 CMakeFiles/LinkedList.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinkedList.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/main.cpp -o CMakeFiles/LinkedList.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/petko/workspace/FMI-Semester-6/cs-2-practical/LinkedList/main.cpp -o CMakeFiles/LinkedList.dir/main.cpp.s
 
 CMakeFiles/LinkedList.dir/Node.cpp.o: CMakeFiles/LinkedList.dir/flags.make
 CMakeFiles/LinkedList.dir/Node.cpp.o: ../Node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LinkedList.dir/Node.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LinkedList.dir/Node.cpp.o -c /home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/Node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/petko/workspace/FMI-Semester-6/cs-2-practical/LinkedList/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LinkedList.dir/Node.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LinkedList.dir/Node.cpp.o -c /home/petko/workspace/FMI-Semester-6/cs-2-practical/LinkedList/Node.cpp
 
 CMakeFiles/LinkedList.dir/Node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LinkedList.dir/Node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/Node.cpp > CMakeFiles/LinkedList.dir/Node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/petko/workspace/FMI-Semester-6/cs-2-practical/LinkedList/Node.cpp > CMakeFiles/LinkedList.dir/Node.cpp.i
 
 CMakeFiles/LinkedList.dir/Node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinkedList.dir/Node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/Node.cpp -o CMakeFiles/LinkedList.dir/Node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/petko/workspace/FMI-Semester-6/cs-2-practical/LinkedList/Node.cpp -o CMakeFiles/LinkedList.dir/Node.cpp.s
 
 CMakeFiles/LinkedList.dir/List.cpp.o: CMakeFiles/LinkedList.dir/flags.make
 CMakeFiles/LinkedList.dir/List.cpp.o: ../List.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LinkedList.dir/List.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LinkedList.dir/List.cpp.o -c /home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/List.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/petko/workspace/FMI-Semester-6/cs-2-practical/LinkedList/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LinkedList.dir/List.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LinkedList.dir/List.cpp.o -c /home/petko/workspace/FMI-Semester-6/cs-2-practical/LinkedList/List.cpp
 
 CMakeFiles/LinkedList.dir/List.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LinkedList.dir/List.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/List.cpp > CMakeFiles/LinkedList.dir/List.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/petko/workspace/FMI-Semester-6/cs-2-practical/LinkedList/List.cpp > CMakeFiles/LinkedList.dir/List.cpp.i
 
 CMakeFiles/LinkedList.dir/List.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinkedList.dir/List.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/List.cpp -o CMakeFiles/LinkedList.dir/List.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/petko/workspace/FMI-Semester-6/cs-2-practical/LinkedList/List.cpp -o CMakeFiles/LinkedList.dir/List.cpp.s
 
 CMakeFiles/LinkedList.dir/ListIterator.cpp.o: CMakeFiles/LinkedList.dir/flags.make
 CMakeFiles/LinkedList.dir/ListIterator.cpp.o: ../ListIterator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/LinkedList.dir/ListIterator.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LinkedList.dir/ListIterator.cpp.o -c /home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/ListIterator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/petko/workspace/FMI-Semester-6/cs-2-practical/LinkedList/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/LinkedList.dir/ListIterator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LinkedList.dir/ListIterator.cpp.o -c /home/petko/workspace/FMI-Semester-6/cs-2-practical/LinkedList/ListIterator.cpp
 
 CMakeFiles/LinkedList.dir/ListIterator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LinkedList.dir/ListIterator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/ListIterator.cpp > CMakeFiles/LinkedList.dir/ListIterator.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/petko/workspace/FMI-Semester-6/cs-2-practical/LinkedList/ListIterator.cpp > CMakeFiles/LinkedList.dir/ListIterator.cpp.i
 
 CMakeFiles/LinkedList.dir/ListIterator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinkedList.dir/ListIterator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/ListIterator.cpp -o CMakeFiles/LinkedList.dir/ListIterator.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/petko/workspace/FMI-Semester-6/cs-2-practical/LinkedList/ListIterator.cpp -o CMakeFiles/LinkedList.dir/ListIterator.cpp.s
 
 # Object files for target LinkedList
 LinkedList_OBJECTS = \
@@ -145,7 +145,7 @@ LinkedList: CMakeFiles/LinkedList.dir/List.cpp.o
 LinkedList: CMakeFiles/LinkedList.dir/ListIterator.cpp.o
 LinkedList: CMakeFiles/LinkedList.dir/build.make
 LinkedList: CMakeFiles/LinkedList.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable LinkedList"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/petko/workspace/FMI-Semester-6/cs-2-practical/LinkedList/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable LinkedList"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LinkedList.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -158,6 +158,6 @@ CMakeFiles/LinkedList.dir/clean:
 .PHONY : CMakeFiles/LinkedList.dir/clean
 
 CMakeFiles/LinkedList.dir/depend:
-	cd /home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList /home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList /home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/cmake-build-debug /home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/cmake-build-debug /home/petko/workspace/oop-2020-21/cs-2-practical/06-moreUno-linkedList/LinkedList/cmake-build-debug/CMakeFiles/LinkedList.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/petko/workspace/FMI-Semester-6/cs-2-practical/LinkedList/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/petko/workspace/FMI-Semester-6/cs-2-practical/LinkedList /home/petko/workspace/FMI-Semester-6/cs-2-practical/LinkedList /home/petko/workspace/FMI-Semester-6/cs-2-practical/LinkedList/cmake-build-debug /home/petko/workspace/FMI-Semester-6/cs-2-practical/LinkedList/cmake-build-debug /home/petko/workspace/FMI-Semester-6/cs-2-practical/LinkedList/cmake-build-debug/CMakeFiles/LinkedList.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/LinkedList.dir/depend
 
