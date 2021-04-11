@@ -1,0 +1,10 @@
+/var/lib/snapd/snap/clion/149/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/petko/workspace/FMI-Semester-6/8Puzzle
+CMake Warning (dev) at CMakeLists.txt:6:
+  Syntax Warning in cmake code at column 30
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/petko/workspace/FMI-Semester-6/8Puzzle/cmake-build-debug
