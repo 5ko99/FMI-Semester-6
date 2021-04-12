@@ -142,33 +142,6 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/8Puzzle.dir/build.make CMakeFiles/8Puzzle.dir/build
 .PHONY : 8Puzzle/fast
 
-Headers/Solver.o: Headers/Solver.cpp.o
-
-.PHONY : Headers/Solver.o
-
-# target to build an object file
-Headers/Solver.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/8Puzzle.dir/build.make CMakeFiles/8Puzzle.dir/Headers/Solver.cpp.o
-.PHONY : Headers/Solver.cpp.o
-
-Headers/Solver.i: Headers/Solver.cpp.i
-
-.PHONY : Headers/Solver.i
-
-# target to preprocess a source file
-Headers/Solver.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/8Puzzle.dir/build.make CMakeFiles/8Puzzle.dir/Headers/Solver.cpp.i
-.PHONY : Headers/Solver.cpp.i
-
-Headers/Solver.s: Headers/Solver.cpp.s
-
-.PHONY : Headers/Solver.s
-
-# target to generate assembly for a file
-Headers/Solver.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/8Puzzle.dir/build.make CMakeFiles/8Puzzle.dir/Headers/Solver.cpp.s
-.PHONY : Headers/Solver.cpp.s
-
 Source/CompareFunctorForAStar.o: Source/CompareFunctorForAStar.cpp.o
 
 .PHONY : Source/CompareFunctorForAStar.o
@@ -250,6 +223,33 @@ Source/Node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/8Puzzle.dir/build.make CMakeFiles/8Puzzle.dir/Source/Node.cpp.s
 .PHONY : Source/Node.cpp.s
 
+Source/Solver.o: Source/Solver.cpp.o
+
+.PHONY : Source/Solver.o
+
+# target to build an object file
+Source/Solver.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/8Puzzle.dir/build.make CMakeFiles/8Puzzle.dir/Source/Solver.cpp.o
+.PHONY : Source/Solver.cpp.o
+
+Source/Solver.i: Source/Solver.cpp.i
+
+.PHONY : Source/Solver.i
+
+# target to preprocess a source file
+Source/Solver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/8Puzzle.dir/build.make CMakeFiles/8Puzzle.dir/Source/Solver.cpp.i
+.PHONY : Source/Solver.cpp.i
+
+Source/Solver.s: Source/Solver.cpp.s
+
+.PHONY : Source/Solver.s
+
+# target to generate assembly for a file
+Source/Solver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/8Puzzle.dir/build.make CMakeFiles/8Puzzle.dir/Source/Solver.cpp.s
+.PHONY : Source/Solver.cpp.s
+
 Source/State.o: Source/State.cpp.o
 
 .PHONY : Source/State.o
@@ -313,9 +313,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... 8Puzzle"
-	@echo "... Headers/Solver.o"
-	@echo "... Headers/Solver.i"
-	@echo "... Headers/Solver.s"
 	@echo "... Source/CompareFunctorForAStar.o"
 	@echo "... Source/CompareFunctorForAStar.i"
 	@echo "... Source/CompareFunctorForAStar.s"
@@ -325,6 +322,9 @@ help:
 	@echo "... Source/Node.o"
 	@echo "... Source/Node.i"
 	@echo "... Source/Node.s"
+	@echo "... Source/Solver.o"
+	@echo "... Source/Solver.i"
+	@echo "... Source/Solver.s"
 	@echo "... Source/State.o"
 	@echo "... Source/State.i"
 	@echo "... Source/State.s"

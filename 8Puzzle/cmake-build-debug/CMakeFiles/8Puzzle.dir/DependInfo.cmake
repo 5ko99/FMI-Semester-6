@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/petko/workspace/FMI-Semester-6/8Puzzle/Headers/Solver.cpp" "/home/petko/workspace/FMI-Semester-6/8Puzzle/cmake-build-debug/CMakeFiles/8Puzzle.dir/Headers/Solver.cpp.o"
   "/home/petko/workspace/FMI-Semester-6/8Puzzle/Source/CompareFunctorForAStar.cpp" "/home/petko/workspace/FMI-Semester-6/8Puzzle/cmake-build-debug/CMakeFiles/8Puzzle.dir/Source/CompareFunctorForAStar.cpp.o"
   "/home/petko/workspace/FMI-Semester-6/8Puzzle/Source/CompareFunctorForBestFirst.cpp" "/home/petko/workspace/FMI-Semester-6/8Puzzle/cmake-build-debug/CMakeFiles/8Puzzle.dir/Source/CompareFunctorForBestFirst.cpp.o"
   "/home/petko/workspace/FMI-Semester-6/8Puzzle/Source/Node.cpp" "/home/petko/workspace/FMI-Semester-6/8Puzzle/cmake-build-debug/CMakeFiles/8Puzzle.dir/Source/Node.cpp.o"
+  "/home/petko/workspace/FMI-Semester-6/8Puzzle/Source/Solver.cpp" "/home/petko/workspace/FMI-Semester-6/8Puzzle/cmake-build-debug/CMakeFiles/8Puzzle.dir/Source/Solver.cpp.o"
   "/home/petko/workspace/FMI-Semester-6/8Puzzle/Source/State.cpp" "/home/petko/workspace/FMI-Semester-6/8Puzzle/cmake-build-debug/CMakeFiles/8Puzzle.dir/Source/State.cpp.o"
   "/home/petko/workspace/FMI-Semester-6/8Puzzle/main.cpp" "/home/petko/workspace/FMI-Semester-6/8Puzzle/cmake-build-debug/CMakeFiles/8Puzzle.dir/main.cpp.o"
   )

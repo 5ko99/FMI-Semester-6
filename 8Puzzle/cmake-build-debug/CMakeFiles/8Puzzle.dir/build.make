@@ -141,18 +141,18 @@ CMakeFiles/8Puzzle.dir/Source/CompareFunctorForAStar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/8Puzzle.dir/Source/CompareFunctorForAStar.cpp.s"
 	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/petko/workspace/FMI-Semester-6/8Puzzle/Source/CompareFunctorForAStar.cpp -o CMakeFiles/8Puzzle.dir/Source/CompareFunctorForAStar.cpp.s
 
-CMakeFiles/8Puzzle.dir/Headers/Solver.cpp.o: CMakeFiles/8Puzzle.dir/flags.make
-CMakeFiles/8Puzzle.dir/Headers/Solver.cpp.o: ../Headers/Solver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/petko/workspace/FMI-Semester-6/8Puzzle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/8Puzzle.dir/Headers/Solver.cpp.o"
-	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/8Puzzle.dir/Headers/Solver.cpp.o -c /home/petko/workspace/FMI-Semester-6/8Puzzle/Headers/Solver.cpp
+CMakeFiles/8Puzzle.dir/Source/Solver.cpp.o: CMakeFiles/8Puzzle.dir/flags.make
+CMakeFiles/8Puzzle.dir/Source/Solver.cpp.o: ../Source/Solver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/petko/workspace/FMI-Semester-6/8Puzzle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/8Puzzle.dir/Source/Solver.cpp.o"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/8Puzzle.dir/Source/Solver.cpp.o -c /home/petko/workspace/FMI-Semester-6/8Puzzle/Source/Solver.cpp
 
-CMakeFiles/8Puzzle.dir/Headers/Solver.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/8Puzzle.dir/Headers/Solver.cpp.i"
-	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/petko/workspace/FMI-Semester-6/8Puzzle/Headers/Solver.cpp > CMakeFiles/8Puzzle.dir/Headers/Solver.cpp.i
+CMakeFiles/8Puzzle.dir/Source/Solver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/8Puzzle.dir/Source/Solver.cpp.i"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/petko/workspace/FMI-Semester-6/8Puzzle/Source/Solver.cpp > CMakeFiles/8Puzzle.dir/Source/Solver.cpp.i
 
-CMakeFiles/8Puzzle.dir/Headers/Solver.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/8Puzzle.dir/Headers/Solver.cpp.s"
-	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/petko/workspace/FMI-Semester-6/8Puzzle/Headers/Solver.cpp -o CMakeFiles/8Puzzle.dir/Headers/Solver.cpp.s
+CMakeFiles/8Puzzle.dir/Source/Solver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/8Puzzle.dir/Source/Solver.cpp.s"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/petko/workspace/FMI-Semester-6/8Puzzle/Source/Solver.cpp -o CMakeFiles/8Puzzle.dir/Source/Solver.cpp.s
 
 # Object files for target 8Puzzle
 8Puzzle_OBJECTS = \
@@ -161,7 +161,7 @@ CMakeFiles/8Puzzle.dir/Headers/Solver.cpp.s: cmake_force
 "CMakeFiles/8Puzzle.dir/Source/Node.cpp.o" \
 "CMakeFiles/8Puzzle.dir/Source/CompareFunctorForBestFirst.cpp.o" \
 "CMakeFiles/8Puzzle.dir/Source/CompareFunctorForAStar.cpp.o" \
-"CMakeFiles/8Puzzle.dir/Headers/Solver.cpp.o"
+"CMakeFiles/8Puzzle.dir/Source/Solver.cpp.o"
 
 # External object files for target 8Puzzle
 8Puzzle_EXTERNAL_OBJECTS =
@@ -171,7 +171,7 @@ CMakeFiles/8Puzzle.dir/Headers/Solver.cpp.s: cmake_force
 8Puzzle: CMakeFiles/8Puzzle.dir/Source/Node.cpp.o
 8Puzzle: CMakeFiles/8Puzzle.dir/Source/CompareFunctorForBestFirst.cpp.o
 8Puzzle: CMakeFiles/8Puzzle.dir/Source/CompareFunctorForAStar.cpp.o
-8Puzzle: CMakeFiles/8Puzzle.dir/Headers/Solver.cpp.o
+8Puzzle: CMakeFiles/8Puzzle.dir/Source/Solver.cpp.o
 8Puzzle: CMakeFiles/8Puzzle.dir/build.make
 8Puzzle: CMakeFiles/8Puzzle.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/petko/workspace/FMI-Semester-6/8Puzzle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable 8Puzzle"

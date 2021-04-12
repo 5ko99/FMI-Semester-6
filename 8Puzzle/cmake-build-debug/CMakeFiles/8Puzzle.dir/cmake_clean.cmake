@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
   "8Puzzle"
   "8Puzzle.pdb"
-  "CMakeFiles/8Puzzle.dir/Headers/Solver.cpp.o"
   "CMakeFiles/8Puzzle.dir/Source/CompareFunctorForAStar.cpp.o"
   "CMakeFiles/8Puzzle.dir/Source/CompareFunctorForBestFirst.cpp.o"
   "CMakeFiles/8Puzzle.dir/Source/Node.cpp.o"
+  "CMakeFiles/8Puzzle.dir/Source/Solver.cpp.o"
   "CMakeFiles/8Puzzle.dir/Source/State.cpp.o"
   "CMakeFiles/8Puzzle.dir/main.cpp.o"
 )

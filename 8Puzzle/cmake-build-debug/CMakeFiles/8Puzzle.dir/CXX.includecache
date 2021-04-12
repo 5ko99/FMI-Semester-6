@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/petko/workspace/FMI-Semester-6/8Puzzle/Headers/State.h
+array
+-
+iostream
+-
+
+/home/petko/workspace/FMI-Semester-6/8Puzzle/Source/State.cpp
+../Headers/State.h
+/home/petko/workspace/FMI-Semester-6/8Puzzle/Headers/State.h
+random
+-
+stdexcept
+-
+

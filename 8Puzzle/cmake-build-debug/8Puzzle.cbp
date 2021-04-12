@@ -93,9 +93,6 @@
 		<Unit filename="/home/petko/workspace/FMI-Semester-6/8Puzzle/Headers/Node.h">
 			<Option target="8Puzzle"/>
 		</Unit>
-		<Unit filename="/home/petko/workspace/FMI-Semester-6/8Puzzle/Headers/Solver.cpp">
-			<Option target="8Puzzle"/>
-		</Unit>
 		<Unit filename="/home/petko/workspace/FMI-Semester-6/8Puzzle/Headers/Solver.h">
 			<Option target="8Puzzle"/>
 		</Unit>
@@ -109,6 +106,9 @@
 			<Option target="8Puzzle"/>
 		</Unit>
 		<Unit filename="/home/petko/workspace/FMI-Semester-6/8Puzzle/Source/Node.cpp">
+			<Option target="8Puzzle"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/FMI-Semester-6/8Puzzle/Source/Solver.cpp">
 			<Option target="8Puzzle"/>
 		</Unit>
 		<Unit filename="/home/petko/workspace/FMI-Semester-6/8Puzzle/Source/State.cpp">

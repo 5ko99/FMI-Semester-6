@@ -10,14 +10,16 @@ class State {
 public:
     explicit State(const std::array<short, SIZE> &other);
 
+    explicit State(std::array<short,SIZE>&& other);
+
     explicit State(bool randomize);
 
-    explicit State(State&& other) noexcept;
+//    explicit State(State&& other) noexcept;
 
     State();
 
-    State& operator=(const State& other);
-    State& operator=(State&& other) noexcept;
+//    State& operator=(const State& other);
+//    State& operator=(State&& other) noexcept;
 
     friend bool operator==(const State &lhs, const State &rhs);
     friend bool operator!=(const State &lhs, const State &rhs);

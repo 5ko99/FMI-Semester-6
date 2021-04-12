@@ -9,6 +9,10 @@ State::State() {
 
 State::State(const std::array<short, SIZE> &other) : state(other) {}
 
+State::State(std::array<short, 9>&& other) : state(other) {
+
+}
+
 State::State(bool randomizeFlag) {
     for(short i=0;i<SIZE;++i)
         state[i] = i;
@@ -17,21 +21,22 @@ State::State(bool randomizeFlag) {
     }
 }
 
-State & State::operator=(const State &other) {
-    if(this != &other) {
-        state = other.state;
-    }
-    return *this;
-}
 
-State & State::operator=(State &&other)  noexcept {
-    if(this != &other) {
-        state = other.state;
-    }
-    return *this;
-}
-
-State::State(State &&other) noexcept : state(other.state) {}
+//State & State::operator=(const State &other) {
+//    if(this != &other) {
+//        state = other.state;
+//    }
+//    return *this;
+//}
+//
+//State & State::operator=(State &&other)  noexcept {
+//    if(this != &other) {
+//        state = other.state;
+//    }
+//    return *this;
+//}
+//
+//State::State(State &&other) noexcept : state(other.state) {}
 
 bool operator==(const State &lhs, const State &rhs) {
     return lhs.state == rhs.state;
@@ -116,7 +121,7 @@ void State::printState(std::ostream &stream) const {
             short index = row * ROWS + col;
             stream<<state[index]<<' ';
         }
-        stream<<' ';
+        stream<<'\n';
     }
     stream<<' ';
 }
