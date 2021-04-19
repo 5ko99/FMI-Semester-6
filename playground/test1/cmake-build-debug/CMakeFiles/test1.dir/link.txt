@@ -1,0 +1,1 @@
+/usr/lib64/ccache/c++ -g CMakeFiles/test1.dir/main.cpp.o CMakeFiles/test1.dir/Registration.cpp.o CMakeFiles/test1.dir/Vehicle.cpp.o CMakeFiles/test1.dir/VehicleList.cpp.o -o test1 
