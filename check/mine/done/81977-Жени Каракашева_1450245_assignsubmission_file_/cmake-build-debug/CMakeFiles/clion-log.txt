@@ -1,0 +1,1 @@
+CMakeLists.txt not found in /home/petko/workspace/check/mine/81977-Жени Каракашева_1450245_assignsubmission_file_ Select CMakeLists.txt

@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/petko/workspace/check/mine/82130-Цветелин Цецков_1450357_assignsubmission_file_/HW_01/HW_01/src/Garage.cpp
+Garage.h
+/home/petko/workspace/check/mine/82130-Цветелин Цецков_1450357_assignsubmission_file_/HW_01/HW_01/src/Garage.h
+stdexcept
+-
+cassert
+-
+cstring
+-
+
+/home/petko/workspace/check/mine/82130-Цветелин Цецков_1450357_assignsubmission_file_/HW_01/HW_01/src/Garage.h
+Vehicle.h
+/home/petko/workspace/check/mine/82130-Цветелин Цецков_1450357_assignsubmission_file_/HW_01/HW_01/src/Vehicle.h
+
+/home/petko/workspace/check/mine/82130-Цветелин Цецков_1450357_assignsubmission_file_/HW_01/HW_01/src/MyString.h
+cstddef
+-
+ostream
+-
+istream
+-
+
+/home/petko/workspace/check/mine/82130-Цветелин Цецков_1450357_assignsubmission_file_/HW_01/HW_01/src/Vehicle.h
+MyString.h
+/home/petko/workspace/check/mine/82130-Цветелин Цецков_1450357_assignsubmission_file_/HW_01/HW_01/src/MyString.h
+cstddef
+-
+ostream
+-
+

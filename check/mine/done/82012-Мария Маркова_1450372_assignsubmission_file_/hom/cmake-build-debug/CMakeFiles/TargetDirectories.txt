@@ -1,0 +1,3 @@
+/home/petko/workspace/check/mine/82012-Мария Маркова_1450372_assignsubmission_file_/hom/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/petko/workspace/check/mine/82012-Мария Маркова_1450372_assignsubmission_file_/hom/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/petko/workspace/check/mine/82012-Мария Маркова_1450372_assignsubmission_file_/hom/cmake-build-debug/CMakeFiles/hom.dir

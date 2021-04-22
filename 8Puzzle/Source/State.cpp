@@ -46,6 +46,10 @@ bool operator!=(const State &lhs, const State &rhs) {
     return !(lhs==rhs);
 }
 
+bool operator>(const State &lhs, const State &rhs) {
+    return lhs.state < rhs.state;
+}
+
 const std::array<short, 9> & State::getArray() const {
     return state;
 }

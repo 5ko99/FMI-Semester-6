@@ -1,0 +1,1 @@
+/usr/lib64/ccache/c++ -g CMakeFiles/exm.dir/catch2.cpp.o CMakeFiles/exm.dir/Garage.cpp.o CMakeFiles/exm.dir/main_Homework.cpp.o CMakeFiles/exm.dir/MyString.cpp.o CMakeFiles/exm.dir/Vehicle.cpp.o -o exm 

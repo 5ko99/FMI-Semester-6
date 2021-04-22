@@ -5,6 +5,9 @@
 #include "State.h"
 #include<array>
 #include<vector>
+#include<set>
+#include "CompareFunctorForAStar.h"
+#include "CompareFunctorForBestFirst.h"
 
 
 enum class TypeOfAlgorithm {
@@ -15,9 +18,10 @@ enum class TypeOfAlgorithm {
 class Solver {
 private:
     typedef std::shared_ptr<Node> NodePtr;
-    typedef std::vector<NodePtr> NodeList;
-    NodeList openList;
-    NodeList closedList;
+    typedef std::vector<State> StateVector; //if it's not okay back to vector
+    typedef std::vector<NodePtr> NodePtrVec;
+    NodePtrVec openList;
+    StateVector closedList;
     const State& goal;
     bool solved;
     TypeOfAlgorithm type;
@@ -28,7 +32,7 @@ public:
 
     inline bool isSolved() const;
 
-    static bool contains(const State& state, const NodeList& arr);
+    static bool contains(const State& state, const StateVector& arr);
 
     static bool isSolvable(const State& state);
 
@@ -36,8 +40,8 @@ public:
 
     std::vector<NodePtr> solve();
 
-    static void printSolution(const NodeList& solution, std::ostream& stream);
+    static void printSolution(const std::vector<NodePtr>& solution, std::ostream& stream);
 private:
-   [[nodiscard]] std::array<short,4> getNeighboursOfEmpty(const NodePtr& node) const;
+   [[nodiscard]] static std::array<short,4> getNeighboursOfEmpty(const NodePtr& node) ;
 };
 

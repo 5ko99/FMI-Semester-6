@@ -1,0 +1,17 @@
+for VSCode
+
+//run string tests
+g++ MyString/MyString.cpp Tests/test_MyString.cpp
+
+//run vehichle tests
+g++ Vehicle/vehicle.cpp Tests/test_vehicle.cpp MyString/MyString.cpp
+
+//run garage tests
+g++ Garage/garage.cpp Tests/test_garage.cpp Vehicle/vehicle.cpp MyString/MyString.cpp
+
+//run vehicle list tests
+g++ VehicleList/vehicle_list.cpp Tests/test_vehicle_list.cpp Vehicle/vehicle.cpp MyString/MyString.cpp
+ 
+//run main
+g++ Garage/garage.cpp main.cpp Vehicle/vehicle.cpp MyString/MyString.cpp VehicleList/vehicle_list.cpp
+

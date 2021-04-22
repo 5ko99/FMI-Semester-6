@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/petko/workspace/check/mine/82037-Йоанна Сиркова_1450162_assignsubmission_file_/exm/MyString.cpp
+MyString.h
+/home/petko/workspace/check/mine/82037-Йоанна Сиркова_1450162_assignsubmission_file_/exm/MyString.h
+iostream
+-
+cstring
+-
+stdexcept
+-
+cassert
+-
+
+/home/petko/workspace/check/mine/82037-Йоанна Сиркова_1450162_assignsubmission_file_/exm/MyString.h
+iostream
+-
+cstddef
+-
+

@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/petko/workspace/check/mine/81977-Жени Каракашева_1450245_assignsubmission_file_/homework1_81977/Garage/Garage.h
+iostream
+-
+../Vehicle/Vehicle.h
+/home/petko/workspace/check/mine/81977-Жени Каракашева_1450245_assignsubmission_file_/homework1_81977/Vehicle/Vehicle.h
+
+/home/petko/workspace/check/mine/81977-Жени Каракашева_1450245_assignsubmission_file_/homework1_81977/MyString/MyString.h
+iostream
+-
+cstring
+-
+
+/home/petko/workspace/check/mine/81977-Жени Каракашева_1450245_assignsubmission_file_/homework1_81977/Vehicle/Vehicle.h
+../MyString/MyString.h
+/home/petko/workspace/check/mine/81977-Жени Каракашева_1450245_assignsubmission_file_/homework1_81977/MyString/MyString.h
+
+/home/petko/workspace/check/mine/81977-Жени Каракашева_1450245_assignsubmission_file_/homework1_81977/main.cpp
+iostream
+-
+MyString/MyString.h
+/home/petko/workspace/check/mine/81977-Жени Каракашева_1450245_assignsubmission_file_/homework1_81977/MyString/MyString.h
+Vehicle/Vehicle.h
+/home/petko/workspace/check/mine/81977-Жени Каракашева_1450245_assignsubmission_file_/homework1_81977/Vehicle/Vehicle.h
+Garage/Garage.h
+/home/petko/workspace/check/mine/81977-Жени Каракашева_1450245_assignsubmission_file_/homework1_81977/Garage/Garage.h
+

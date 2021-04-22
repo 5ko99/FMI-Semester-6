@@ -26,6 +26,8 @@ CMakeFiles/8Puzzle.dir/Source/State.cpp.o
  /home/petko/workspace/FMI-Semester-6/8Puzzle/Headers/State.h
  /home/petko/workspace/FMI-Semester-6/8Puzzle/Source/State.cpp
 CMakeFiles/8Puzzle.dir/main.cpp.o
+ ../Headers/CompareFunctorForAStar.h
+ ../Headers/CompareFunctorForBestFirst.h
  ../Headers/Node.h
  ../Headers/Solver.h
  ../Headers/State.h

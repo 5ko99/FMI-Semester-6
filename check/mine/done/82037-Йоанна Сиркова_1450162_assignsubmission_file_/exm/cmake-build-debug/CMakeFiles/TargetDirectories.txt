@@ -1,0 +1,3 @@
+/home/petko/workspace/check/mine/82037-Йоанна Сиркова_1450162_assignsubmission_file_/exm/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/petko/workspace/check/mine/82037-Йоанна Сиркова_1450162_assignsubmission_file_/exm/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/petko/workspace/check/mine/82037-Йоанна Сиркова_1450162_assignsubmission_file_/exm/cmake-build-debug/CMakeFiles/exm.dir

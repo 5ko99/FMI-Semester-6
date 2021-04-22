@@ -1,92 +1,86 @@
 #include "Solver.h"
-#include "CompareFunctorForAStar.h"
-#include "CompareFunctorForBestFirst.h"
-typedef std::shared_ptr<Node> NodePtr;
-typedef std::vector<NodePtr> NodeList;
+#include<ranges>
+#include <functional>
+#include <algorithm>
 
-Solver::Solver(const State &_start, const State &_goal, TypeOfAlgorithm _type): goal(_goal), solved(false),type(_type) {
+typedef std::shared_ptr<Node> NodePtr;
+
+Solver::Solver(const State &_start, const State &_goal, TypeOfAlgorithm _type) : goal(_goal), solved(false),
+                                                                                 type(_type) {
     NodePtr root(new Node(_start, nullptr, 0));
     openList.push_back(root);
 }
 
-std::array<short,4> Solver::getNeighboursOfEmpty(const NodePtr& nodePtr) const {
+std::array<short, 4> Solver::getNeighboursOfEmpty(const NodePtr &nodePtr) {
     short emptyPos = nodePtr->getState().findEmptyTile();
-    std::array<short,4> directions{};//0-up,1-down,2-left,3-right
-    directions[0] = emptyPos-3>=0 ? emptyPos - 3 : -1;
-    directions[1] = emptyPos+3<SIZE ? emptyPos + 3 : -1;
-    directions[2] = (emptyPos-1)>= 0 && emptyPos % ROWS !=0  ? emptyPos-1 : -1;
-    directions[3] = (emptyPos+1)<SIZE && emptyPos % ROWS != 2 ? emptyPos+1:-1;
+    std::array<short, 4> directions{};//0-up,1-down,2-left,3-right
+    directions[0] = emptyPos - 3 >= 0 ? emptyPos - 3 : -1;
+    directions[1] = emptyPos + 3 < SIZE ? emptyPos + 3 : -1;
+    directions[2] = (emptyPos - 1) >= 0 && emptyPos % ROWS != 0 ? emptyPos - 1 : -1;
+    directions[3] = (emptyPos + 1) < SIZE && emptyPos % ROWS != 2 ? emptyPos + 1 : -1;
     return directions;
 }
 
-bool Solver::contains(const State& state, const NodeList& arr) {
-    for(const auto& cur : arr)
-        if(cur->getState()==state)
-            return true;
-    return false;
+bool Solver::contains(const State &state, const StateVector &closedList) {
+    auto equalTo = [](const State &state) {
+        return [state](const State &state1) { return state == state1; };
+    };
+    return std::ranges::any_of(closedList, equalTo(state));
 }
 
-void Solver::expandNode(const NodePtr& current) {
-    if(current->getState() == goal) {
+void Solver::expandNode(const NodePtr &current) {
+    if (current->getState() == goal) {
         solved = true;
         return;
     }
-    try {
-        short empty = current->getState().findEmptyTile();
-    } catch (const std::exception& exc) {
-        std::cerr<<exc.what()<<'\n';
-        exit(1);
-    }
-    const std::array<short,4> neighbours = getNeighboursOfEmpty(current);
+    const std::array<short, 4> neighbours = getNeighboursOfEmpty(current);
 
-    for(short neigh : neighbours) {
-        if(neigh==-1)
+    for (short neigh : neighbours) {
+        if (neigh == -1)
             continue;
         State state = current->getState();
         state.swapWithEmpty(neigh);
-
-        if(!contains(state,closedList)) {
-            NodePtr newNode(new Node(state,current,current->getDepth()+1));
-            openList.push_back(newNode);
+        if (!contains(state, closedList)) {
+            NodePtr newStatePointer(new Node(state, current, current->getDepth() + 1));
+            openList.push_back(newStatePointer);
         }
     }
 }
 
-bool Solver::isSolvable(const State& state) {
+bool Solver::isSolvable(const State &state) {
     short inv_count = 0;
-    const std::array<short,SIZE> arr = state.getArray();
-    for (short i = 0; i < arr.size()-1; i++)
-        for (short j = i + 1; j < arr.size(); j++)
+    const std::array<short, SIZE> arr = state.getArray();
+    for (int i = 0; i < arr.size() - 1; i++)
+        for (int j = i + 1; j < arr.size(); j++)
             if (arr[j] && arr[i] && arr[i] > arr[j])
                 inv_count++;
     return (inv_count % 2 == 0);
 }
 
 NodePtr Solver::getNextNode() {
-    if(openList.empty()) return nullptr;
+    if (openList.empty()) return nullptr;
     NodePtr curr;
     switch (type) {
         case TypeOfAlgorithm::AStar: {
             auto curr_itr(std::min_element(openList.begin(),
-                                                         openList.end(),
-                                                         CompareFunctorForAStar()));
-            if(curr_itr==openList.end()) return nullptr;
+                                           openList.end(),
+                                           CompareFunctorForAStar()));
+            if (curr_itr == openList.end()) return nullptr;
             curr = *curr_itr;
             openList.erase(curr_itr);
-            closedList.push_back(curr);
+            closedList.push_back(curr->getState());
             break;
         }
         case TypeOfAlgorithm::BEST_FIRST_SEARCH: {
             auto curr_itr(std::min_element(openList.begin(),
                                            openList.end(),
-                                           CompareFunctorForBestFirst()));
-            if(curr_itr==openList.end()) return nullptr;
+                                           CompareFunctorForAStar()));
+            if (curr_itr == openList.end()) return nullptr;
 
-            //copy the value before erasing it
             curr = *curr_itr;
 
             openList.erase(curr_itr);
-            closedList.push_back(curr);
+            closedList.push_back(curr->getState());
             break;
         }
     }
@@ -99,11 +93,11 @@ bool Solver::isSolved() const {
 
 std::vector<NodePtr> Solver::solve() {
     NodePtr node;
-    while(!isSolved()) {
+    while (!isSolved()) {
         node = getNextNode();
         expandNode(node);
     }
-    NodeList solution;
+    std::vector<NodePtr> solution;
     do {
         solution.push_back(node);
         node = node->getParent();
@@ -111,10 +105,10 @@ std::vector<NodePtr> Solver::solve() {
     return solution;
 }
 
-void Solver::printSolution(const NodeList &solution, std::ostream &stream) {
-    stream<<"Puzzle solved in "<<solution.size()-1<<" steps.\n Solution is:\n";
-    for(const auto& state: solution) {
+void Solver::printSolution(const std::vector<NodePtr> &solution, std::ostream &stream) {
+    stream << "Puzzle solved in " << solution.size() - 1 << " steps.\n Solution is:\n";
+    for (const auto &state: solution) {
         state->getState().printState(stream);
     }
-    stream<<'\n';
+    stream << '\n';
 }

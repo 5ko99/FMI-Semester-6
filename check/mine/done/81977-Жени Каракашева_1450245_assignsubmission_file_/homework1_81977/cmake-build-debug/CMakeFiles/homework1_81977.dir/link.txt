@@ -1,0 +1,1 @@
+/usr/lib64/ccache/c++ -g CMakeFiles/homework1_81977.dir/Garage/Garage.cpp.o CMakeFiles/homework1_81977.dir/MyString/MyString.cpp.o CMakeFiles/homework1_81977.dir/Vehicle/Vehicle.cpp.o CMakeFiles/homework1_81977.dir/main.cpp.o -o homework1_81977 

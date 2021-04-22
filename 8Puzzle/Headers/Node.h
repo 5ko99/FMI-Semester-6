@@ -16,6 +16,13 @@ public:
     const State& getState() const;
     unsigned int getDepth() const;
 
+    friend bool operator==(const Node &lhs, const Node &rhs);
+    friend bool operator!=(const Node &lhs, const Node &rhs);
+    friend bool operator<(const Node &lhs, const Node &rhs);
+    friend bool operator>(const Node &lhs, const Node &rhs);
+
     void print(std::ostream& out) const;
 };
+
+
 

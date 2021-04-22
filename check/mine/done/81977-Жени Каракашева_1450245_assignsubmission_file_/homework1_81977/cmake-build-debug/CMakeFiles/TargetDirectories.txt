@@ -1,0 +1,3 @@
+/home/petko/workspace/check/mine/81977-Жени Каракашева_1450245_assignsubmission_file_/homework1_81977/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/petko/workspace/check/mine/81977-Жени Каракашева_1450245_assignsubmission_file_/homework1_81977/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/petko/workspace/check/mine/81977-Жени Каракашева_1450245_assignsubmission_file_/homework1_81977/cmake-build-debug/CMakeFiles/homework1_81977.dir

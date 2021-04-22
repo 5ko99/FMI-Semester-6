@@ -1,0 +1,4 @@
+/var/lib/snapd/snap/clion/149/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/petko/workspace/check/mine/82012-Мария Маркова_1450372_assignsubmission_file_/hom"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/petko/workspace/check/mine/82012-Мария Маркова_1450372_assignsubmission_file_/hom/cmake-build-debug

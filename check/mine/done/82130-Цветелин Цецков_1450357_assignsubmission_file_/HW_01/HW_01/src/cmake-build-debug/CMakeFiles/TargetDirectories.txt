@@ -1,0 +1,3 @@
+/home/petko/workspace/check/mine/82130-Цветелин Цецков_1450357_assignsubmission_file_/HW_01/HW_01/src/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/petko/workspace/check/mine/82130-Цветелин Цецков_1450357_assignsubmission_file_/HW_01/HW_01/src/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/petko/workspace/check/mine/82130-Цветелин Цецков_1450357_assignsubmission_file_/HW_01/HW_01/src/cmake-build-debug/CMakeFiles/src.dir

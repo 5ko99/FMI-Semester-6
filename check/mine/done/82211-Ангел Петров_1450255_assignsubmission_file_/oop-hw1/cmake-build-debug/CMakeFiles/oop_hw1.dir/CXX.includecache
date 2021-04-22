@@ -1,0 +1,52 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/petko/workspace/check/mine/82211-Ангел Петров_1450255_assignsubmission_file_/oop-hw1/garage.h
+myString.h
+/home/petko/workspace/check/mine/82211-Ангел Петров_1450255_assignsubmission_file_/oop-hw1/myString.h
+vehicle.h
+/home/petko/workspace/check/mine/82211-Ангел Петров_1450255_assignsubmission_file_/oop-hw1/vehicle.h
+
+/home/petko/workspace/check/mine/82211-Ангел Петров_1450255_assignsubmission_file_/oop-hw1/main.cpp
+iostream
+-
+cstring
+-
+myString.h
+/home/petko/workspace/check/mine/82211-Ангел Петров_1450255_assignsubmission_file_/oop-hw1/myString.h
+vehicle.h
+/home/petko/workspace/check/mine/82211-Ангел Петров_1450255_assignsubmission_file_/oop-hw1/vehicle.h
+garage.h
+/home/petko/workspace/check/mine/82211-Ангел Петров_1450255_assignsubmission_file_/oop-hw1/garage.h
+vehicleAllocator.h
+/home/petko/workspace/check/mine/82211-Ангел Петров_1450255_assignsubmission_file_/oop-hw1/vehicleAllocator.h
+utils.h
+/home/petko/workspace/check/mine/82211-Ангел Петров_1450255_assignsubmission_file_/oop-hw1/utils.h
+
+/home/petko/workspace/check/mine/82211-Ангел Петров_1450255_assignsubmission_file_/oop-hw1/myString.h
+
+/home/petko/workspace/check/mine/82211-Ангел Петров_1450255_assignsubmission_file_/oop-hw1/utils.h
+myString.h
+/home/petko/workspace/check/mine/82211-Ангел Петров_1450255_assignsubmission_file_/oop-hw1/myString.h
+vehicle.h
+/home/petko/workspace/check/mine/82211-Ангел Петров_1450255_assignsubmission_file_/oop-hw1/vehicle.h
+garage.h
+/home/petko/workspace/check/mine/82211-Ангел Петров_1450255_assignsubmission_file_/oop-hw1/garage.h
+vehicleAllocator.h
+/home/petko/workspace/check/mine/82211-Ангел Петров_1450255_assignsubmission_file_/oop-hw1/vehicleAllocator.h
+
+/home/petko/workspace/check/mine/82211-Ангел Петров_1450255_assignsubmission_file_/oop-hw1/vehicle.h
+myString.h
+/home/petko/workspace/check/mine/82211-Ангел Петров_1450255_assignsubmission_file_/oop-hw1/myString.h
+
+/home/petko/workspace/check/mine/82211-Ангел Петров_1450255_assignsubmission_file_/oop-hw1/vehicleAllocator.h
+myString.h
+/home/petko/workspace/check/mine/82211-Ангел Петров_1450255_assignsubmission_file_/oop-hw1/myString.h
+vehicle.h
+/home/petko/workspace/check/mine/82211-Ангел Петров_1450255_assignsubmission_file_/oop-hw1/vehicle.h
+

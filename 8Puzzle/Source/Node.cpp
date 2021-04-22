@@ -33,3 +33,18 @@ void Node::print(std::ostream &out) const {
     state.printState(out);
     out<<"Depth:"<<depth<<'\n';
 }
+
+bool operator==(const Node &lhs, const Node &rhs) {
+    return lhs.getState() == rhs.getState();
+}
+bool operator!=(const Node &lhs, const Node &rhs) {
+    return !(lhs == rhs);
+}
+
+bool operator<(const Node &lhs, const Node &rhs) {
+    return lhs.getDepth() < rhs.getDepth();
+}
+
+bool operator>(const Node &lhs, const Node &rhs) {
+    return lhs.getDepth() > rhs.getDepth();
+}

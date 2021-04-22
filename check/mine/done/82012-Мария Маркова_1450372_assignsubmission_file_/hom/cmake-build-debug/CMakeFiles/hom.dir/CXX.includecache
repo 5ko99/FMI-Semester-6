@@ -1,0 +1,64 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/petko/workspace/check/mine/82012-Мария Маркова_1450372_assignsubmission_file_/hom/main/garage.cpp
+iostream
+-
+cstring
+-
+vehicle.h
+/home/petko/workspace/check/mine/82012-Мария Маркова_1450372_assignsubmission_file_/hom/main/vehicle.h
+garage.h
+/home/petko/workspace/check/mine/82012-Мария Маркова_1450372_assignsubmission_file_/hom/main/garage.h
+
+/home/petko/workspace/check/mine/82012-Мария Маркова_1450372_assignsubmission_file_/hom/main/garage.h
+cstddef
+-
+vehicle.h
+/home/petko/workspace/check/mine/82012-Мария Маркова_1450372_assignsubmission_file_/hom/main/vehicle.h
+
+/home/petko/workspace/check/mine/82012-Мария Маркова_1450372_assignsubmission_file_/hom/main/mystring.cpp
+iostream
+-
+cassert
+-
+cstring
+-
+mystring.h
+/home/petko/workspace/check/mine/82012-Мария Маркова_1450372_assignsubmission_file_/hom/main/mystring.h
+
+/home/petko/workspace/check/mine/82012-Мария Маркова_1450372_assignsubmission_file_/hom/main/mystring.h
+cstddef
+-
+
+/home/petko/workspace/check/mine/82012-Мария Маркова_1450372_assignsubmission_file_/hom/main/vector.cpp
+cassert
+-
+iostream
+-
+stdexcept
+-
+vector.h
+/home/petko/workspace/check/mine/82012-Мария Маркова_1450372_assignsubmission_file_/hom/main/vector.h
+
+/home/petko/workspace/check/mine/82012-Мария Маркова_1450372_assignsubmission_file_/hom/main/vector.h
+iostream
+-
+vehicle.h
+/home/petko/workspace/check/mine/82012-Мария Маркова_1450372_assignsubmission_file_/hom/main/vehicle.h
+
+/home/petko/workspace/check/mine/82012-Мария Маркова_1450372_assignsubmission_file_/hom/main/vehicle.cpp
+vehicle.h
+/home/petko/workspace/check/mine/82012-Мария Маркова_1450372_assignsubmission_file_/hom/main/vehicle.h
+
+/home/petko/workspace/check/mine/82012-Мария Маркова_1450372_assignsubmission_file_/hom/main/vehicle.h
+cstddef
+-
+mystring.h
+/home/petko/workspace/check/mine/82012-Мария Маркова_1450372_assignsubmission_file_/hom/main/mystring.h
+

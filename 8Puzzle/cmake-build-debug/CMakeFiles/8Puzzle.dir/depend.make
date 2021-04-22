@@ -25,6 +25,8 @@ CMakeFiles/8Puzzle.dir/Source/Solver.cpp.o: ../Source/Solver.cpp
 CMakeFiles/8Puzzle.dir/Source/State.cpp.o: ../Headers/State.h
 CMakeFiles/8Puzzle.dir/Source/State.cpp.o: ../Source/State.cpp
 
+CMakeFiles/8Puzzle.dir/main.cpp.o: ../Headers/CompareFunctorForAStar.h
+CMakeFiles/8Puzzle.dir/main.cpp.o: ../Headers/CompareFunctorForBestFirst.h
 CMakeFiles/8Puzzle.dir/main.cpp.o: ../Headers/Node.h
 CMakeFiles/8Puzzle.dir/main.cpp.o: ../Headers/Solver.h
 CMakeFiles/8Puzzle.dir/main.cpp.o: ../Headers/State.h

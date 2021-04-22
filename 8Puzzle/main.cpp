@@ -8,7 +8,8 @@
 int main() {
     typedef std::shared_ptr<Node> NodePtr;
     typedef std::vector<NodePtr> NodeList;
-    srand(time(nullptr));
+    time_t t;
+    srand((unsigned) time(&t));
     State goal(std::array<short,SIZE>{0,1,2,
                                       3,4,5,
                                       6,7,8});

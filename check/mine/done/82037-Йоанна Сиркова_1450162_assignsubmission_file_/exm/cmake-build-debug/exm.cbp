@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="exm"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/petko/workspace/check/mine/82037-Йоанна Сиркова_1450162_assignsubmission_file_/exm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/check/mine/82037-Йоанна\ Сиркова_1450162_assignsubmission_file_/exm/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/check/mine/82037-Йоанна\ Сиркова_1450162_assignsubmission_file_/exm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/check/mine/82037-Йоанна\ Сиркова_1450162_assignsubmission_file_/exm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/check/mine/82037-Йоанна\ Сиркова_1450162_assignsubmission_file_/exm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/petko/workspace/check/mine/82037-Йоанна Сиркова_1450162_assignsubmission_file_/exm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/check/mine/82037-Йоанна\ Сиркова_1450162_assignsubmission_file_/exm/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/check/mine/82037-Йоанна\ Сиркова_1450162_assignsubmission_file_/exm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/check/mine/82037-Йоанна\ Сиркова_1450162_assignsubmission_file_/exm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/check/mine/82037-Йоанна\ Сиркова_1450162_assignsubmission_file_/exm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/petko/workspace/check/mine/82037-Йоанна Сиркова_1450162_assignsubmission_file_/exm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/check/mine/82037-Йоанна\ Сиркова_1450162_assignsubmission_file_/exm/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/check/mine/82037-Йоанна\ Сиркова_1450162_assignsubmission_file_/exm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/check/mine/82037-Йоанна\ Сиркова_1450162_assignsubmission_file_/exm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/check/mine/82037-Йоанна\ Сиркова_1450162_assignsubmission_file_/exm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exm">
+				<Option output="/home/petko/workspace/check/mine/82037-Йоанна Сиркова_1450162_assignsubmission_file_/exm/cmake-build-debug/exm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/petko/workspace/check/mine/82037-Йоанна Сиркова_1450162_assignsubmission_file_/exm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/petko/workspace/check/mine/82037-Йоанна Сиркова_1450162_assignsubmission_file_/exm/."/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/check/mine/82037-Йоанна\ Сиркова_1450162_assignsubmission_file_/exm/cmake-build-debug/Makefile&quot;  VERBOSE=1 exm"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/check/mine/82037-Йоанна\ Сиркова_1450162_assignsubmission_file_/exm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/check/mine/82037-Йоанна\ Сиркова_1450162_assignsubmission_file_/exm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/check/mine/82037-Йоанна\ Сиркова_1450162_assignsubmission_file_/exm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exm/fast">
+				<Option output="/home/petko/workspace/check/mine/82037-Йоанна Сиркова_1450162_assignsubmission_file_/exm/cmake-build-debug/exm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/petko/workspace/check/mine/82037-Йоанна Сиркова_1450162_assignsubmission_file_/exm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/petko/workspace/check/mine/82037-Йоанна Сиркова_1450162_assignsubmission_file_/exm/."/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/check/mine/82037-Йоанна\ Сиркова_1450162_assignsubmission_file_/exm/cmake-build-debug/Makefile&quot;  VERBOSE=1 exm/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/check/mine/82037-Йоанна\ Сиркова_1450162_assignsubmission_file_/exm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/check/mine/82037-Йоанна\ Сиркова_1450162_assignsubmission_file_/exm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/check/mine/82037-Йоанна\ Сиркова_1450162_assignsubmission_file_/exm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/petko/workspace/check/mine/82037-Йоанна Сиркова_1450162_assignsubmission_file_/exm/Garage.cpp">
+			<Option target="exm"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/check/mine/82037-Йоанна Сиркова_1450162_assignsubmission_file_/exm/Garage.h">
+			<Option target="exm"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/check/mine/82037-Йоанна Сиркова_1450162_assignsubmission_file_/exm/MyString.cpp">
+			<Option target="exm"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/check/mine/82037-Йоанна Сиркова_1450162_assignsubmission_file_/exm/MyString.h">
+			<Option target="exm"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/check/mine/82037-Йоанна Сиркова_1450162_assignsubmission_file_/exm/Vehicle.cpp">
+			<Option target="exm"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/check/mine/82037-Йоанна Сиркова_1450162_assignsubmission_file_/exm/Vehicle.h">
+			<Option target="exm"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/check/mine/82037-Йоанна Сиркова_1450162_assignsubmission_file_/exm/catch2.cpp">
+			<Option target="exm"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/check/mine/82037-Йоанна Сиркова_1450162_assignsubmission_file_/exm/catch2.hpp">
+			<Option target="exm"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/check/mine/82037-Йоанна Сиркова_1450162_assignsubmission_file_/exm/main_Homework.cpp">
+			<Option target="exm"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/check/mine/82037-Йоанна Сиркова_1450162_assignsubmission_file_/exm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -23,6 +23,7 @@ public:
 
     friend bool operator==(const State &lhs, const State &rhs);
     friend bool operator!=(const State &lhs, const State &rhs);
+    friend bool operator>(const State &lhs, const State &rhs);
 
     short findEmptyTile() const;
 
