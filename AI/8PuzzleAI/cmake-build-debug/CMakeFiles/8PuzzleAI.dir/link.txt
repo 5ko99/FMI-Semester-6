@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/8PuzzleAI.dir/main.cpp.o CMakeFiles/8PuzzleAI.dir/Source/State.cpp.o CMakeFiles/8PuzzleAI.dir/Source/Node.cpp.o CMakeFiles/8PuzzleAI.dir/Source/CompareFunctorForBestFirst.cpp.o CMakeFiles/8PuzzleAI.dir/Source/CompareFunctorForAStar.cpp.o CMakeFiles/8PuzzleAI.dir/Source/Solver.cpp.o -o 8PuzzleAI 

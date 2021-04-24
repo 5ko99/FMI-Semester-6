@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/petko/workspace/playground/DynamiArrExample/DynamicArray.cpp" "/home/petko/workspace/playground/DynamiArrExample/cmake-build-debug/CMakeFiles/DynamiArrExample.dir/DynamicArray.cpp.o"
-  "/home/petko/workspace/playground/DynamiArrExample/main.cpp" "/home/petko/workspace/playground/DynamiArrExample/cmake-build-debug/CMakeFiles/DynamiArrExample.dir/main.cpp.o"
+  "/home/petko/workspace/FMI-Semester-6/playground/DynamiArrExample/DynamicArray.cpp" "/home/petko/workspace/FMI-Semester-6/playground/DynamiArrExample/cmake-build-debug/CMakeFiles/DynamiArrExample.dir/DynamicArray.cpp.o"
+  "/home/petko/workspace/FMI-Semester-6/playground/DynamiArrExample/main.cpp" "/home/petko/workspace/FMI-Semester-6/playground/DynamiArrExample/cmake-build-debug/CMakeFiles/DynamiArrExample.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

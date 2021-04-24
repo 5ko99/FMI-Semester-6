@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Header/CompareFunctorForAStar.h
+memory
+-
+Node.h
+../Header/Node.h
+
+../Header/Node.h
+State.h
+../Header/State.h
+memory
+-
+iostream
+-
+
+../Header/State.h
+array
+-
+iostream
+-
+
+/home/petko/workspace/FMI-Semester-6/8PuzzleAI/Source/CompareFunctorForAStar.cpp
+CompareFunctorForAStar.h
+/home/petko/workspace/FMI-Semester-6/8PuzzleAI/Source/CompareFunctorForAStar.h
+State.h
+/home/petko/workspace/FMI-Semester-6/8PuzzleAI/Source/State.h
+

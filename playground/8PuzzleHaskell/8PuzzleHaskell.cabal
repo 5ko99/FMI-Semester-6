@@ -1,0 +1,64 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.33.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: e7e046a16d3ec336a3e12ce9ff33faf1ee046b0dd68d9380008c5481d62d85d5
+
+name:           8PuzzleHaskell
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/githubuser/8PuzzleHaskell#readme>
+homepage:       https://github.com/githubuser/8PuzzleHaskell#readme
+bug-reports:    https://github.com/githubuser/8PuzzleHaskell/issues
+author:         Author name here
+maintainer:     example@example.com
+copyright:      2021 Author name here
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+    ChangeLog.md
+
+source-repository head
+  type: git
+  location: https://github.com/githubuser/8PuzzleHaskell
+
+library
+  exposed-modules:
+      Board
+      Lib
+  other-modules:
+      Paths_8PuzzleHaskell
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+  default-language: Haskell2010
+
+executable 8PuzzleHaskell-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_8PuzzleHaskell
+  hs-source-dirs:
+      app
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      8PuzzleHaskell
+    , base >=4.7 && <5
+  default-language: Haskell2010
+
+test-suite 8PuzzleHaskell-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  other-modules:
+      Paths_8PuzzleHaskell
+  hs-source-dirs:
+      test
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      8PuzzleHaskell
+    , base >=4.7 && <5
+    , hspec
+  default-language: Haskell2010

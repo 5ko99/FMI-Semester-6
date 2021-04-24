@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="8PuzzleAI"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/petko/workspace/FMI-Semester-6/8PuzzleAI/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/8PuzzleAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/8PuzzleAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/8PuzzleAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/8PuzzleAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/petko/workspace/FMI-Semester-6/8PuzzleAI/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/8PuzzleAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/8PuzzleAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/8PuzzleAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/8PuzzleAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/petko/workspace/FMI-Semester-6/8PuzzleAI/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/8PuzzleAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/8PuzzleAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/8PuzzleAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/8PuzzleAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8PuzzleAI">
+				<Option output="/home/petko/workspace/FMI-Semester-6/8PuzzleAI/cmake-build-debug/8PuzzleAI" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/petko/workspace/FMI-Semester-6/8PuzzleAI/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/petko/workspace/FMI-Semester-6/8PuzzleAI/Header"/>
+					<Add directory="/home/petko/workspace/FMI-Semester-6/8PuzzleAI/Source"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/8PuzzleAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 8PuzzleAI"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/8PuzzleAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/8PuzzleAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/8PuzzleAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8PuzzleAI/fast">
+				<Option output="/home/petko/workspace/FMI-Semester-6/8PuzzleAI/cmake-build-debug/8PuzzleAI" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/petko/workspace/FMI-Semester-6/8PuzzleAI/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/petko/workspace/FMI-Semester-6/8PuzzleAI/Header"/>
+					<Add directory="/home/petko/workspace/FMI-Semester-6/8PuzzleAI/Source"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/8PuzzleAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 8PuzzleAI/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/8PuzzleAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/8PuzzleAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/8PuzzleAI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/petko/workspace/FMI-Semester-6/8PuzzleAI/Header/CompareFunctorForAStar.h">
+			<Option target="8PuzzleAI"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/FMI-Semester-6/8PuzzleAI/Header/CompareFunctorForBestFirst.h">
+			<Option target="8PuzzleAI"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/FMI-Semester-6/8PuzzleAI/Header/Node.h">
+			<Option target="8PuzzleAI"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/FMI-Semester-6/8PuzzleAI/Header/Solver.h">
+			<Option target="8PuzzleAI"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/FMI-Semester-6/8PuzzleAI/Header/State.h">
+			<Option target="8PuzzleAI"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/FMI-Semester-6/8PuzzleAI/Source/CompareFunctorForAStar.cpp">
+			<Option target="8PuzzleAI"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/FMI-Semester-6/8PuzzleAI/Source/CompareFunctorForBestFirst.cpp">
+			<Option target="8PuzzleAI"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/FMI-Semester-6/8PuzzleAI/Source/Node.cpp">
+			<Option target="8PuzzleAI"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/FMI-Semester-6/8PuzzleAI/Source/Solver.cpp">
+			<Option target="8PuzzleAI"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/FMI-Semester-6/8PuzzleAI/Source/State.cpp">
+			<Option target="8PuzzleAI"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/FMI-Semester-6/8PuzzleAI/main.cpp">
+			<Option target="8PuzzleAI"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/FMI-Semester-6/8PuzzleAI/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
