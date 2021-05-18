@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/12thDAAExr.dir/main.cpp.o -o 12thDAAExr 
