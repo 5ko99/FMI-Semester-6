@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/HeapSor.dir/main.cpp.o -o HeapSor 

@@ -39,7 +39,10 @@ private:
     bool is_bi_parted_help(int start, std::vector<int> &visited);
 };
 
-Graph::Graph(int V, bool oriented) : adj(V), V(V), oriented(oriented) {}
+Graph::Graph(int V, bool oriented) : adj(V), V(V), oriented(oriented) {
+    if(V<=0)
+        throw std::exception();
+}
 
 void Graph::addEdge(int start, int end) {
     adj[start].push_back(end);
@@ -60,9 +63,8 @@ int Graph::shortestPath(int start, int end) {
         if (curVertex == end)
             return curDistance;
         for (int neighbour : adj[curVertex]) {
-            if (visited[neighbour]) {
+            if (visited[neighbour])
                 continue;
-            }
             q.push(std::make_pair(neighbour, curDistance + 1));
             visited[neighbour] = true;
         }
@@ -82,14 +84,13 @@ std::vector<int> Graph::BFS(int start) {
         q.pop();
         result.push_back(curVertex);
         for (int neighbour : adj[curVertex]) {
-            if (visited[neighbour]) {
+            if (visited[neighbour])
                 continue;
-            }
             q.push(neighbour);
             visited[neighbour] = true;
         }
     }
-    return std::move(result);
+    return result;
 }
 
 std::vector<int> Graph::DFS(int start) {
@@ -105,28 +106,25 @@ std::vector<int> Graph::DFS(int start) {
             continue;
         visited[cur] = true;
         result.push_back(cur);
-        for (auto neighbour : adj[cur]) {
+        for (auto neighbour : adj[cur])
             s.push(neighbour);
-        }
     }
-    return std::move(result);
+    return result;
 }
 
 std::vector<int> Graph::DFSRec(int start) {
     std::vector<bool> visited(V, false);
     std::vector<int> result;
     dfs_rec_help(start, visited, result);
-    return std::move(result);
+    return result;
 }
 
 void Graph::dfs_rec_help(int start, std::vector<bool> &visited, std::vector<int> &result) {
     visited[start] = true;
     result.push_back(start);
-    for (int neigh : adj[start]) {
-        if (!visited[neigh]) {
+    for (int neigh : adj[start])
+        if (!visited[neigh])
             dfs_rec_help(neigh, visited, result);
-        }
-    }
 }
 
 bool Graph::containsCycle() {
@@ -135,10 +133,9 @@ bool Graph::containsCycle() {
     std::vector<bool> visited(V, false);
     std::vector<bool> inStack(V, false);
 
-    for (int i = 0; i < V; ++i) {
+    for (int i = 0; i < V; ++i)
         if (contains_cycle_rec(i, visited, inStack))
             return true;
-    }
     return false;
 }
 
@@ -169,31 +166,30 @@ std::vector<int> Graph::TopologicalSort() {
         result[i] = s.top();
         s.pop();
     }
-    return std::move(result);
+    return result;
 }
 
 void Graph::topological_sort_help(int start, std::vector<bool> &visited, std::stack<int> &s) {
     visited[start] = true;
 
-    for (int neigh : adj[start]) {
+    for (int neigh : adj[start])
         if (!visited[neigh])
             topological_sort_help(neigh, visited, s);
-    }
     s.push(start);
 }
 
 bool Graph::isConnected() {
     if (oriented)
         throw std::exception();
-    return (this->DFS(0)).size() == V;
+    return this->DFS(0).size() == V;
 }
 
 bool Graph::isBiParted() {
     if (oriented)
         throw std::exception();
-    std::vector<int> visited(V,false);
-    for(int i=0;i<V;++i)
-        if(visited[i]==0 && is_bi_parted_help(i,visited))
+    std::vector<int> visited(V, false);
+    for (int i = 0; i < V; ++i)
+        if (visited[i] == 0 && is_bi_parted_help(i, visited))
             return true;
     return false;
 }
@@ -209,10 +205,10 @@ bool Graph::is_bi_parted_help(int start, std::vector<int> &visited) {
         int cur = q.front();
         int curColor = visited[cur];
         q.pop();
-        for(int neigh : adj[cur]) {
-            if(visited[neigh] == curColor)
+        for (int neigh : adj[cur]) {
+            if (visited[neigh] == curColor)
                 return false;
-            if(visited[neigh]!=0)
+            if (visited[neigh] != 0)
                 continue;
             q.push(neigh);
             visited[neigh] = curColor == 1 ? 2 : 1;
@@ -222,21 +218,21 @@ bool Graph::is_bi_parted_help(int start, std::vector<int> &visited) {
 }
 
 int main() {
-    Graph g(7,false);
+    Graph g(7, false);
     g.addEdge(0, 1);
     g.addEdge(0, 2);
     g.addEdge(2, 3);;
     g.addEdge(3, 4);
     g.addEdge(3, 5);
     g.addEdge(5, 6);
-    Graph g1(8,true);
+    Graph g1(8, true);
     g1.addEdge(0, 1);
     g1.addEdge(0, 2);
     g1.addEdge(2, 3);;
     g1.addEdge(3, 4);
     g1.addEdge(3, 5);
     g1.addEdge(5, 6);
-    g1.addEdge(3,7);
+    g1.addEdge(3, 7);
 
     std::vector<int> result = g.BFS(0);
     std::cout << "BFS: ";
@@ -259,6 +255,6 @@ int main() {
     for (int &a : result)
         std::cout << a << ' ';
     std::cout << "\nIs connected: " << g.isConnected() << "\n";
-    std::cout<<"BiParted: "<<g.isBiParted()<<'\n';
+    std::cout << "BiParted: " << g.isBiParted() << '\n';
     return 0;
 }
