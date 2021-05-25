@@ -29,6 +29,10 @@ public:
 
     bool isBiParted();
 
+    std::vector<std::vector<int>> getStronglyConnectedComponents();
+
+    Graph getTranspose();
+
 private:
     bool contains_cycle_rec(int start, std::vector<bool> &visited, std::vector<bool> &inStack);
 
@@ -37,6 +41,7 @@ private:
     void topological_sort_help(int start, std::vector<bool> &visited, std::stack<int> &s);
 
     bool is_bi_parted_help(int start, std::vector<int> &visited);
+
 };
 
 Graph::Graph(int V, bool oriented) : adj(V), V(V), oriented(oriented) {
@@ -217,6 +222,33 @@ bool Graph::is_bi_parted_help(int start, std::vector<int> &visited) {
     return true;
 }
 
+Graph Graph::getTranspose() {
+    Graph result(V);
+
+    for(int i=0;i<adj.size();++i)
+        for(int j=0;j<adj[i].size();++j)
+            result.addEdge(adj[i][j],i);
+    return result;
+}
+
+std::vector<std::vector<int>> Graph::getStronglyConnectedComponents() {
+    std::vector<int> topo = TopologicalSort();
+
+    Graph transposedGraph = getTranspose();
+
+    std::vector<bool> visited(V);
+
+    std::vector<std::vector<int>> result;
+
+    for(int i : topo) {
+        std::vector<int> currStrConCom;
+        if(!visited[i])
+            transposedGraph.dfs_rec_help(i,visited,currStrConCom);
+        result.push_back(currStrConCom);
+    }
+    return result;
+}
+
 int main() {
     Graph g(7, false);
     g.addEdge(0, 1);
@@ -256,5 +288,12 @@ int main() {
         std::cout << a << ' ';
     std::cout << "\nIs connected: " << g.isConnected() << "\n";
     std::cout << "BiParted: " << g.isBiParted() << '\n';
+    std::cout<<"Strongly connected components:";
+    auto res  = g1.getStronglyConnectedComponents();
+    for(int i=0;i<res.size();++i) {
+        for (int j = 0; j < res.size(); ++j)
+            std::cout << res[i][j] << ' ';
+        std::cout<<'\n';
+    }
     return 0;
 }
