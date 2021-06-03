@@ -1,0 +1,14 @@
+//
+// Created by petko on 26/05/2021.
+//
+
+#ifndef TEMPLATESANDABSTRACTCLASSES_POINT_H
+#define TEMPLATESANDABSTRACTCLASSES_POINT_H
+
+
+class Point {
+
+};
+
+
+#endif //TEMPLATESANDABSTRACTCLASSES_POINT_H
