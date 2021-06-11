@@ -1,0 +1,52 @@
+# depslib dependency file v1.0
+1621548345 source:d:\c++\projects\homework ¹2\main.cpp
+	"Registration.h"
+	<iostream>
+
+1621548238 source:d:\c++\projects\homework ¹2\registration.cpp
+	"Registration.h"
+	<iostream>
+
+1621548238 d:\c++\projects\homework ¹2\registration.h
+	<string>
+
+1621539696 source:d:\c++\projects\homework ¹2\vehicle.cpp
+
+1621803006 source:c:\users\tsvetomir\desktop\homework ¹2\main.cpp
+	"Commands.h"
+	<iostream>
+	<fstream>
+
+1621762676 c:\users\tsvetomir\desktop\homework ¹2\registration.h
+	<string>
+
+1621762676 source:c:\users\tsvetomir\desktop\homework ¹2\registration.cpp
+	"Registration.h"
+	<iostream>
+
+1621764288 source:c:\users\tsvetomir\desktop\homework ¹2\vehicle.cpp
+	"Vehicle.h"
+	"Person.h"
+	<iostream>
+
+1621712181 source:c:\users\tsvetomir\desktop\homework ¹2\person.cpp
+	"Person.h"
+	<iostream>
+
+1621712157 c:\users\tsvetomir\desktop\homework ¹2\person.h
+	"Vehicle.h"
+	<string>
+	<vector>
+
+1621763699 c:\users\tsvetomir\desktop\homework ¹2\vehicle.h
+	"Registration.h"
+	<string>
+
+1621802623 source:c:\users\tsvetomir\desktop\homework ¹2\commands.cpp
+	"Commands.h"
+	<iostream>
+	<fstream>
+
+1621797703 c:\users\tsvetomir\desktop\homework ¹2\commands.h
+	"Person.h"
+

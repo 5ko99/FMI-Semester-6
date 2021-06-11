@@ -1,0 +1,8 @@
+"Ivan Petrov" 12
+"I brat mu" 11
+"kofti" 10
+Vehicles
+Y1111ZY "qk begachka" "Ivan Petrov"
+Y2222ZX "pechen bavarec" "I brat mu"
+ZZ3333XY "probit golf" "kofti"
+END

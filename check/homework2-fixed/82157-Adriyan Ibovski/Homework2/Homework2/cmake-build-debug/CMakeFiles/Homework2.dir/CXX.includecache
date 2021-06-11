@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Programming/OOP C++/Homework2/Command.h
+Vehicle.h
+D:/Programming/OOP C++/Homework2/Vehicle.h
+Person.h
+D:/Programming/OOP C++/Homework2/Person.h
+fstream
+-
+
+D:/Programming/OOP C++/Homework2/Person.h
+string
+-
+vector
+-
+Vehicle.h
+D:/Programming/OOP C++/Homework2/Vehicle.h
+
+D:/Programming/OOP C++/Homework2/Registration.h
+string
+-
+
+D:/Programming/OOP C++/Homework2/Vehicle.h
+Registration.h
+D:/Programming/OOP C++/Homework2/Registration.h
+vector
+-
+
+D:/Programming/OOP C++/Homework2/main.cpp
+iostream
+-
+Command.h
+D:/Programming/OOP C++/Homework2/Command.h
+

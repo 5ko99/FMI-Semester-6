@@ -1,0 +1,8 @@
+person "Georgi Georgiev" 310
+person "Ivan Ivanov" 311
+person "Petar Petrov" 333
+vehicle X1234BA Opel
+vehicle CA3333BA Subaru
+vehicle CB4444BA Honda
+acquire 310 X1234BA
+acquire 310 CB4444BA

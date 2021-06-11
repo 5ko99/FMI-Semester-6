@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/dom2.dir/commands.cpp.o CMakeFiles/dom2.dir/main.cpp.o CMakeFiles/dom2.dir/person.cpp.o CMakeFiles/dom2.dir/registration.cpp.o CMakeFiles/dom2.dir/vehicle.cpp.o -o dom2 

@@ -1,0 +1,4 @@
+person John 1
+person Max 2
+vehicle CA1234AA Opel
+acquire 1 CA1234AA

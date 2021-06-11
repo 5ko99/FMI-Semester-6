@@ -1,0 +1,156 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/petko/workspace/FMI-Semester-6/check/mine/82138-Ralitsa Andreeva/hw2/Command.cpp
+vector
+-
+string
+-
+stdexcept
+-
+cstddef
+-
+Command.h
+/home/petko/workspace/FMI-Semester-6/check/mine/82138-Ralitsa Andreeva/hw2/Command.h
+Helpers.h
+/home/petko/workspace/FMI-Semester-6/check/mine/82138-Ralitsa Andreeva/hw2/Helpers.h
+
+/home/petko/workspace/FMI-Semester-6/check/mine/82138-Ralitsa Andreeva/hw2/Command.h
+vector
+-
+string
+-
+cstddef
+-
+Registration.h
+/home/petko/workspace/FMI-Semester-6/check/mine/82138-Ralitsa Andreeva/hw2/Registration.h
+
+/home/petko/workspace/FMI-Semester-6/check/mine/82138-Ralitsa Andreeva/hw2/Database.cpp
+iostream
+-
+fstream
+-
+vector
+-
+string
+-
+stdexcept
+-
+cstddef
+-
+Helpers.h
+/home/petko/workspace/FMI-Semester-6/check/mine/82138-Ralitsa Andreeva/hw2/Helpers.h
+Vehicle.h
+/home/petko/workspace/FMI-Semester-6/check/mine/82138-Ralitsa Andreeva/hw2/Vehicle.h
+Person.h
+/home/petko/workspace/FMI-Semester-6/check/mine/82138-Ralitsa Andreeva/hw2/Person.h
+Command.h
+/home/petko/workspace/FMI-Semester-6/check/mine/82138-Ralitsa Andreeva/hw2/Command.h
+Database.h
+/home/petko/workspace/FMI-Semester-6/check/mine/82138-Ralitsa Andreeva/hw2/Database.h
+
+/home/petko/workspace/FMI-Semester-6/check/mine/82138-Ralitsa Andreeva/hw2/Database.h
+vector
+-
+string
+-
+cstddef
+-
+Registration.h
+/home/petko/workspace/FMI-Semester-6/check/mine/82138-Ralitsa Andreeva/hw2/Registration.h
+Vehicle.h
+/home/petko/workspace/FMI-Semester-6/check/mine/82138-Ralitsa Andreeva/hw2/Vehicle.h
+Person.h
+/home/petko/workspace/FMI-Semester-6/check/mine/82138-Ralitsa Andreeva/hw2/Person.h
+
+/home/petko/workspace/FMI-Semester-6/check/mine/82138-Ralitsa Andreeva/hw2/HW2.cpp
+iostream
+-
+string
+-
+Database.h
+/home/petko/workspace/FMI-Semester-6/check/mine/82138-Ralitsa Andreeva/hw2/Database.h
+
+/home/petko/workspace/FMI-Semester-6/check/mine/82138-Ralitsa Andreeva/hw2/Helpers.cpp
+string
+-
+Helpers.h
+/home/petko/workspace/FMI-Semester-6/check/mine/82138-Ralitsa Andreeva/hw2/Helpers.h
+
+/home/petko/workspace/FMI-Semester-6/check/mine/82138-Ralitsa Andreeva/hw2/Helpers.h
+string
+-
+
+/home/petko/workspace/FMI-Semester-6/check/mine/82138-Ralitsa Andreeva/hw2/Person.cpp
+iostream
+-
+vector
+-
+string
+-
+cstddef
+-
+stdexcept
+-
+Vehicle.h
+/home/petko/workspace/FMI-Semester-6/check/mine/82138-Ralitsa Andreeva/hw2/Vehicle.h
+Person.h
+/home/petko/workspace/FMI-Semester-6/check/mine/82138-Ralitsa Andreeva/hw2/Person.h
+
+/home/petko/workspace/FMI-Semester-6/check/mine/82138-Ralitsa Andreeva/hw2/Person.h
+iostream
+-
+string
+-
+vector
+-
+Vehicle.h
+/home/petko/workspace/FMI-Semester-6/check/mine/82138-Ralitsa Andreeva/hw2/Vehicle.h
+
+/home/petko/workspace/FMI-Semester-6/check/mine/82138-Ralitsa Andreeva/hw2/Registration.cpp
+stdexcept
+-
+cstddef
+-
+Registration.h
+/home/petko/workspace/FMI-Semester-6/check/mine/82138-Ralitsa Andreeva/hw2/Registration.h
+Helpers.h
+/home/petko/workspace/FMI-Semester-6/check/mine/82138-Ralitsa Andreeva/hw2/Helpers.h
+
+/home/petko/workspace/FMI-Semester-6/check/mine/82138-Ralitsa Andreeva/hw2/Registration.h
+iostream
+-
+string
+-
+
+/home/petko/workspace/FMI-Semester-6/check/mine/82138-Ralitsa Andreeva/hw2/Vehicle.cpp
+iostream
+-
+string
+-
+vector
+-
+cstddef
+-
+stdexcept
+-
+Registration.h
+/home/petko/workspace/FMI-Semester-6/check/mine/82138-Ralitsa Andreeva/hw2/Registration.h
+Vehicle.h
+/home/petko/workspace/FMI-Semester-6/check/mine/82138-Ralitsa Andreeva/hw2/Vehicle.h
+
+/home/petko/workspace/FMI-Semester-6/check/mine/82138-Ralitsa Andreeva/hw2/Vehicle.h
+iostream
+-
+string
+-
+vector
+-
+Registration.h
+/home/petko/workspace/FMI-Semester-6/check/mine/82138-Ralitsa Andreeva/hw2/Registration.h
+

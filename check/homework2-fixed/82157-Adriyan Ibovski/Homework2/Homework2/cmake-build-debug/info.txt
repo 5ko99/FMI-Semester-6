@@ -1,0 +1,3 @@
+PERSON : gosho; 100
+PERSON : pesho; 20
+VEHICLE: CA1234CA; opa; 20

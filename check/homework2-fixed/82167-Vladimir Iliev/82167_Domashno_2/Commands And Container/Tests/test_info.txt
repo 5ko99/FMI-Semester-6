@@ -1,0 +1,2 @@
+VEHICLE CA1234CA "CAR 1" 
+person "Vlado Iliev" 123

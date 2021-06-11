@@ -1,0 +1,16 @@
+Person person1 12
+Person person2 34
+Person person3 56
+Person person4 78
+Person "Ivan Petrov Ivanov" 90
+Vehicle AA1234BB car1
+VehiCLe CC7777DD car2
+Vehicle EE7898FF car3
+ACQUiRE 12 AA1234BB
+ACQUIRE 12 CC7777DD
+ACQUIRE 34 AA1234BB
+show AA1234BB
+show people
+show vehicles
+show 34
+show 56

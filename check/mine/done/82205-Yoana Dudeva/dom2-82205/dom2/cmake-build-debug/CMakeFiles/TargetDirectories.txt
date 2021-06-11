@@ -1,0 +1,4 @@
+/home/petko/workspace/FMI-Semester-6/check/mine/82205-Yoana Dudeva/dom2-82205/dom2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/petko/workspace/FMI-Semester-6/check/mine/82205-Yoana Dudeva/dom2-82205/dom2/cmake-build-debug/CMakeFiles/Test.dir
+/home/petko/workspace/FMI-Semester-6/check/mine/82205-Yoana Dudeva/dom2-82205/dom2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/petko/workspace/FMI-Semester-6/check/mine/82205-Yoana Dudeva/dom2-82205/dom2/cmake-build-debug/CMakeFiles/dom2.dir

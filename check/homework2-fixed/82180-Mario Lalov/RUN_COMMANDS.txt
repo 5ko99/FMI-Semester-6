@@ -1,0 +1,11 @@
+Run vehicle tests:
+g++ Vehicle/vehicle.cpp Person/person.cpp Tests/test_vehicle.cpp
+
+Run person tests:
+g++ Vehicle/vehicle.cpp Person/person.cpp Tests/test_person.cpp
+
+Run commands tests:
+g++ Vehicle/vehicle.cpp Person/person.cpp Commands/file_commands.cpp DataContainer\data_container.cpp Tests/test_commands.cpp
+
+Run full compilation:
+g++ Vehicle/vehicle.cpp Person/person.cpp Commands/file_commands.cpp DataContainer/data_container.cpp main.cpp

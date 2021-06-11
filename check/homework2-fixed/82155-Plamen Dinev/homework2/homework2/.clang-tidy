@@ -1,0 +1,5 @@
+---
+Checks:          '*,-fuchsia-*,-google-*,-zircon-*,-abseil-*,-modernize-use-trailing-return-type,-llvm*,-cppcoreguidelines-pro-bounds-array-to-pointer-decay,-hicpp-no-array-decay,-cppcoreguidelines-avoid-c-arrays,-hicpp-avoid-c-arrays,-modernize-avoid-c-arrays,-cppcoreguidelines-init-variables,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-cppcoreguidelines-avoid-magic-numbers,-readability-magic-numbers,-cppcoreguidelines-pro-type-reinterpret-cast,-cppcoreguidelines-pro-bounds-constant-array-index,-cppcoreguidelines-pro-type-member-init,-hicpp-member-init,-cppcoreguidelines-owning-memory,-altera-struct-pack-align,-hicpp-use-auto,-modernize-use-auto,-concurrency-mt-unsafe'
+WarningsAsErrors: '*,-readability-function-cognitive-complexity'
+HeaderFilterRegex: '.*,-catch*'
+FormatStyle:     none

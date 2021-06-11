@@ -1,0 +1,4 @@
+3 Ivan Stanchev 456 1 A1234NN pejo 
+Kaloyan Dimitrov 1234 3 KK8899LL kolich OV1235KL lada A7788PP opel 
+Gofreta Popova 789 1 HG6767TT kamion 
+1 A2597HA opelss

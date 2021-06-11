@@ -1,0 +1,8 @@
+P2118KN,mercedes,Sasho-6
+BT2222KN,lambo,Sasho-6
+P4689PP,motor,Cveti-100
+P7612HH,nissan,Deqn-4
+
+Sasho,6,P2118KN,BT2222KN,
+Deqn,4,P7612HH,
+Cveti,100,P4689PP,

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/HW_2.dir/Commander.cpp.o CMakeFiles/HW_2.dir/main.cpp.o CMakeFiles/HW_2.dir/Organizer.cpp.o CMakeFiles/HW_2.dir/Person.cpp.o CMakeFiles/HW_2.dir/Registration.cpp.o CMakeFiles/HW_2.dir/Vehicle.cpp.o CMakeFiles/HW_2.dir/Verify.cpp.o -o HW_2 

@@ -1,0 +1,7 @@
+4
+Maria 21 2 SA4545CT ford
+	   CT7777PA toyota
+Ivan 33 1 CA2000PA alpha
+Victoria 2 BA1999CT renault
+	   CT1717CA toyota
+Dimitar 1 A2001PK subaru

@@ -1,0 +1,8 @@
+reg number description owner id
+AA1324AA	kola1	ivan	1
+BB1234BB	kola2	NULL
+CC1234CC	kola3	georgi	2
+CC1234CA	kola4	kalin	3
+DD1234CA	kola5	ivana	4
+EE1234EE	kola6	ivana	4
+FF1234FF	kola7	ivan	1

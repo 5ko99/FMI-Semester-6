@@ -1,0 +1,6 @@
+Тестове:
+
+g++ Registration/*.cpp Vehicle/*.cpp Person/*.cpp ObjectHolders/PersonHolder/*.cpp ObjectHolders/VehicleHolder/*.cpp OwnershipController/*.cpp CustomExceptions/EndException/*.cpp CustomExceptions/PersonException/*.cpp CustomExceptions/VehicleException/*.cpp CustomExceptions/RegistrationException/*.cpp FileHandlers/FileReader/*.cpp FileHandlers/FileWriter/*.cpp  CommandInterpreter/*.cpp PVDatabase/*.cpp Tests/*.cpp Tests/test_Holders/*.cpp Tests/test_FileHandlers/*.cpp Tests/test_CommandInterpreter/CommandInterpreterTester/*.cpp Tests/test_CommandInterpreter/*.cpp
+
+Мейн:
+g++ Registration/*.cpp Vehicle/*.cpp Person/*.cpp ObjectHolders/PersonHolder/*.cpp ObjectHolders/VehicleHolder/*.cpp OwnershipController/*.cpp CustomExceptions/EndException/*.cpp CustomExceptions/PersonException/*.cpp CustomExceptions/VehicleException/*.cpp CustomExceptions/RegistrationException/*.cpp FileHandlers/FileReader/*.cpp FileHandlers/FileWriter/*.cpp  CommandInterpreter/*.cpp PVDatabase/*.cpp main.cpp

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Test.dir/catch2.cpp.o CMakeFiles/Test.dir/unittests.cpp.o CMakeFiles/Test.dir/commands.cpp.o CMakeFiles/Test.dir/person.cpp.o CMakeFiles/Test.dir/registration.cpp.o CMakeFiles/Test.dir/vehicle.cpp.o -o Test 

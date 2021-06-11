@@ -1,0 +1,17 @@
+ID/People
+-1 Tony 
+2 Djoni 
+3 Daniel 
+4 Elon Musket 
+5 Elon Trust 
+6 Elon Tusk 
+7 Elon Husk 
+Registration/Vehicles
+AB1234BA Honda Civic 
+Type R |
+XA2314AX Toyota Yaris  |
+DA1234SA Some Vehicle  |
+AW2314SV Honda Civic Type R  |
+DA2314SA Toyota Celica  |
+OR2145EA Hyndai Neshto si  |
+AB1235BA Druga |

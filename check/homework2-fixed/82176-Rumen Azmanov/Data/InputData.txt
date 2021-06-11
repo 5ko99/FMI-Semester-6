@@ -1,0 +1,13 @@
+PERSON "FirstName1 LastName1" 1000
+PERSON "FirstName2 LastName2" 2000
+PERSON "FirstName3 LastName3" 3000
+PERSON "FirstName4 LastName4" 4000
+PERSON "FirstName5 LastName5" 5000
+VEHICLE AA1111AA "DescriptionA VehicleA"
+VEHICLE BB2222BB "DescriptionB VehicleB"
+VEHICLE CC3333CC "DescriptionC VehicleC"
+VEHICLE DD4444DD "DescriptionD VehicleD"
+VEHICLE EE5555EE "DescriptionE VehicleE"
+AQUIRE 1000 AA1111AA
+AQUIRE 1000 BB2222BB
+AQUIRE 2000 CC3333CC

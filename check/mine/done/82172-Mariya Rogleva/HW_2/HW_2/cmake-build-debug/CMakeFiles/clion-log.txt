@@ -1,0 +1,1 @@
+CMakeLists.txt not found in /home/petko/workspace/FMI-Semester-6/check/mine/82172-Mariya Rogleva/HW_2/HW_2 Select CMakeLists.txt

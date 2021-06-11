@@ -1,0 +1,52 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/petko/workspace/FMI-Semester-6/check/mine/82172-Mariya Rogleva/HW_2/HW_2/Commander.cpp
+Commander.hpp
+/home/petko/workspace/FMI-Semester-6/check/mine/82172-Mariya Rogleva/HW_2/HW_2/Commander.hpp
+fstream
+-
+
+/home/petko/workspace/FMI-Semester-6/check/mine/82172-Mariya Rogleva/HW_2/HW_2/Commander.hpp
+Organizer.hpp
+/home/petko/workspace/FMI-Semester-6/check/mine/82172-Mariya Rogleva/HW_2/HW_2/Organizer.hpp
+
+/home/petko/workspace/FMI-Semester-6/check/mine/82172-Mariya Rogleva/HW_2/HW_2/Organizer.cpp
+Organizer.hpp
+/home/petko/workspace/FMI-Semester-6/check/mine/82172-Mariya Rogleva/HW_2/HW_2/Organizer.hpp
+
+/home/petko/workspace/FMI-Semester-6/check/mine/82172-Mariya Rogleva/HW_2/HW_2/Organizer.hpp
+Person.hpp
+/home/petko/workspace/FMI-Semester-6/check/mine/82172-Mariya Rogleva/HW_2/HW_2/Person.hpp
+
+/home/petko/workspace/FMI-Semester-6/check/mine/82172-Mariya Rogleva/HW_2/HW_2/Person.hpp
+Vehicle.hpp
+/home/petko/workspace/FMI-Semester-6/check/mine/82172-Mariya Rogleva/HW_2/HW_2/Vehicle.hpp
+vector
+-
+
+/home/petko/workspace/FMI-Semester-6/check/mine/82172-Mariya Rogleva/HW_2/HW_2/Registration.hpp
+Verify.hpp
+/home/petko/workspace/FMI-Semester-6/check/mine/82172-Mariya Rogleva/HW_2/HW_2/Verify.hpp
+
+/home/petko/workspace/FMI-Semester-6/check/mine/82172-Mariya Rogleva/HW_2/HW_2/Vehicle.hpp
+Registration.hpp
+/home/petko/workspace/FMI-Semester-6/check/mine/82172-Mariya Rogleva/HW_2/HW_2/Registration.hpp
+
+/home/petko/workspace/FMI-Semester-6/check/mine/82172-Mariya Rogleva/HW_2/HW_2/Verify.hpp
+iostream
+-
+string
+-
+
+/home/petko/workspace/FMI-Semester-6/check/mine/82172-Mariya Rogleva/HW_2/HW_2/main.cpp
+Commander.hpp
+/home/petko/workspace/FMI-Semester-6/check/mine/82172-Mariya Rogleva/HW_2/HW_2/Commander.hpp
+iostream
+-
+

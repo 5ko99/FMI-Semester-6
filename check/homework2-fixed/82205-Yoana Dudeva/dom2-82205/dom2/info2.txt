@@ -1,0 +1,11 @@
+P2118KN,mercedes,Tihomir-23431
+P2222KN,mercedes,Borislav-22223
+C1111MM,bmv,
+P4689PP,bmv,Borislav-22223
+BT6789TT,opel,
+P7612HH,nissan,Preslav-53432
+
+Tihomir,23431,P2118KN,
+Blagovest,13321,
+Borislav,22223,P2222KN,P4689PP,
+Preslav,53432,P7612HH

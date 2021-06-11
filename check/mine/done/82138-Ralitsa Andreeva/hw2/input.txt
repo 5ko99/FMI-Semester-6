@@ -1,0 +1,4 @@
+person Peter 2
+person "Peter Petrov" 3
+Vehicle GG9284AA car
+acquire 2 GG9284AA

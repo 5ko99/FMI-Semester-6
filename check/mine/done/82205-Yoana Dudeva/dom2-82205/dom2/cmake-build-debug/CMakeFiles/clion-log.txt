@@ -1,0 +1,4 @@
+/app/extra/clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/petko/workspace/FMI-Semester-6/check/mine/82205-Yoana Dudeva/dom2-82205/dom2"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/petko/workspace/FMI-Semester-6/check/mine/82205-Yoana Dudeva/dom2-82205/dom2/cmake-build-debug

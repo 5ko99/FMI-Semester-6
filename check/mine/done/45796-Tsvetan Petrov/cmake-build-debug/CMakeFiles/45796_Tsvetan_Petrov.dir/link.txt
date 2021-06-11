@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/45796_Tsvetan_Petrov.dir/Instruction.cpp.o CMakeFiles/45796_Tsvetan_Petrov.dir/Person.cpp.o CMakeFiles/45796_Tsvetan_Petrov.dir/Registration.cpp.o CMakeFiles/45796_Tsvetan_Petrov.dir/Source.cpp.o CMakeFiles/45796_Tsvetan_Petrov.dir/Vehicle.cpp.o -o 45796_Tsvetan_Petrov 

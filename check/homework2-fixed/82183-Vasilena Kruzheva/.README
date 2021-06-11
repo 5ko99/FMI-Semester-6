@@ -1,0 +1,14 @@
+Командата използвана за компилиране на съответния файл е:
+
+-unit_test_registration.cpp: g++ tests/unit_test_registration.cpp src/registration.cpp tests/test_main.cpp -o registration --coverage
+-unit_test_person.cpp: g++ tests/unit_test_person.cpp src/person.cpp src/vehicle.cpp src/registration.cpp tests/test_main.cpp -o person --coverage
+-unit_test_vehicle.cpp: g++ tests/unit_test_vehicle.cpp src/person.cpp src/vehicle.cpp src/registration.cpp tests/test_main.cpp -o vehicle --coverage 
+
+-main.cpp: g++ src/vehicle.cpp src/person.cpp src/main.cpp src/registration.cpp src/manager.cpp src/input.cpp -o main
+
+//Командата --coverage е допълнителна. Дава информация за % покрит код с тестове
+//За да се достъпи информацията от coverage следвайте стъпките:
+1) Компилираме с дадената команда
+2) Изпълняваме съответния .exe файл (Примерно: .\vehicle.exe)
+3) Използваме командата gcov (Примерно gcov ..\vehicle)
+4) Ако даде грешка на 3) изпълняваме първо gcov за теста (gcov vehicle) и тогава 2)
