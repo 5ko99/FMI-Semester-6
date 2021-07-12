@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ElectronicsTable"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ElectronicsTable">
+				<Option output="/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/cmake-build-debug/ElectronicsTable" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/."/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/cmake-build-debug/Makefile&quot;  VERBOSE=1 ElectronicsTable"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ElectronicsTable/fast">
+				<Option output="/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/cmake-build-debug/ElectronicsTable" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/."/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/cmake-build-debug/Makefile&quot;  VERBOSE=1 ElectronicsTable/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/Cell.cpp">
+			<Option target="ElectronicsTable"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/Cell.h">
+			<Option target="ElectronicsTable"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/CellType.h">
+			<Option target="ElectronicsTable"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/CommandParser.cpp">
+			<Option target="ElectronicsTable"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/CommandParser.h">
+			<Option target="ElectronicsTable"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/CommandType.h">
+			<Option target="ElectronicsTable"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/DocumentHandler.cpp">
+			<Option target="ElectronicsTable"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/DocumentHandler.h">
+			<Option target="ElectronicsTable"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/DoubleType.cpp">
+			<Option target="ElectronicsTable"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/DoubleType.h">
+			<Option target="ElectronicsTable"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/FormulaType.cpp">
+			<Option target="ElectronicsTable"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/FormulaType.h">
+			<Option target="ElectronicsTable"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/IntegerType.cpp">
+			<Option target="ElectronicsTable"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/IntegerType.h">
+			<Option target="ElectronicsTable"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/Pair.h">
+			<Option target="ElectronicsTable"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/StringHelper.cpp">
+			<Option target="ElectronicsTable"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/StringHelper.h">
+			<Option target="ElectronicsTable"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/StringType.cpp">
+			<Option target="ElectronicsTable"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/StringType.h">
+			<Option target="ElectronicsTable"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/Table.cpp">
+			<Option target="ElectronicsTable"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/Table.h">
+			<Option target="ElectronicsTable"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/main.cpp">
+			<Option target="ElectronicsTable"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/termcolor.hpp">
+			<Option target="ElectronicsTable"/>
+		</Unit>
+		<Unit filename="/home/petko/workspace/FMI-Semester-6/check/mine/ElectronicsTable/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

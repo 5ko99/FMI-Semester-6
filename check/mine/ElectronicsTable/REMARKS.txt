@@ -1,0 +1,13 @@
+- DocumentHandler is singleton. Probably shouldn't be, depending on how we look at it.
+- Class Cell is a wrapper of CellType. Cell initializes dynamic memory and handles all of the RAII conventions.
+- Every Type has its own operators(+,-,*,/,^) impelemented.
+- FormulaType can calculate itself. When calculating, I am using the shunting-yard algorithm. When I do basic operations(+,-,*,/,^) my program uses stack<StringType> because StringType is the most general of all.
+	==> this is a bad solution taking into account the fact that every Type has operators implemented for it and they should be used. An optional fix is to keep the values i use for calculations in stack<Cell>
+	    and everytime the algorithm meets a number the Cell will initialize it(allocate dynamic memory and every cell will be of the proper type). But since allocating memory is costly operation i decided to keep it this way.
+- FormulaType has const Table& refference as a private member. This is also a problematic thing because a single Formula knows about the table(at least it's const methods). Need to research how to better implement this feature.
+- Inheritance hierarchy could be smoother. My main logic is that all base types inherit from CellType(interface).
+- Everytime a table is printed all Formula Cells recalculate themselves. This can be fixed by adding private member m_calculated and keep the result. This requries to have some indication whether a formula cell has been edited or not.
+- In FormulaType.cpp,  postfix_equation method alters m_value of formula type. This may not be the best way to change m_value to "#ERROR" when an error is encoutnered. This flows back to the rest of the methods which were const and now because of this non-const postfix_equation method they all should be non-const as well
+- Haven't adressed problem where editing a cell to be 10 for example and then trying to edit the same cell giving it formula containing itself goes into an infinite loop. It's a logical error. Should be fixed.
+- Potential circular dependency in Cell.h and Table.h.
+
