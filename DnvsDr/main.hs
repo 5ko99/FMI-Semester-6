@@ -9,6 +9,9 @@ g x y = if x == 0 then 0 else g (f x) y
 func :: Integer -> Integer
 func x = g x (f x)
 
+f1 :: Integer -> Integer -> Integer
+f1 x k = if x `mod` k == 0 then x `div` k else f1 (f1 (k * x - 1) k) k
+
 main :: IO ()
 main = do
   putStrLn "Input x"
