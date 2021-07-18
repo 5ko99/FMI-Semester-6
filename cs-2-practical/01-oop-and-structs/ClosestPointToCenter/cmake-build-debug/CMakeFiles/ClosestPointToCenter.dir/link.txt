@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/ClosestPointToCenter.dir/main.cpp.o CMakeFiles/ClosestPointToCenter.dir/Point2D.cpp.o  -o ClosestPointToCenter 
