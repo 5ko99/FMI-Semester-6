@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="13thExerciseDAA" targetName="13thExerciseDAA" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="17d9bc83-26d6-4fea-a7b5-d4307c7bcfc0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/13thExerciseDAA.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12thDAAExr/cmake-build-debug/12thDAAExr" beforeDir="false" afterPath="$PROJECT_DIR$/../12thDAAExr/cmake-build-debug/12thDAAExr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12thDAAExr/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../12thDAAExr/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8Puzzle/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8Puzzle/.idea/8Puzzle.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8Puzzle/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8Puzzle/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8Puzzle/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8Puzzle/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8Puzzle/Headers/CompareFunctorForAStar.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8Puzzle/Headers/CompareFunctorForBestFirst.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8Puzzle/Headers/Node.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8Puzzle/Headers/Solver.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8Puzzle/Headers/State.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8Puzzle/Source/CompareFunctorForAStar.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8Puzzle/Source/CompareFunctorForBestFirst.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8Puzzle/Source/Node.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8Puzzle/Source/Solver.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8Puzzle/Source/State.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8Puzzle/cmake-build-debug/8Puzzle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8Puzzle/cmake-build-debug/8Puzzle.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8Puzzle/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8Puzzle/cmake-build-debug/CMakeFiles/3.19.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8Puzzle/cmake-build-debug/CMakeFiles/3.19.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8Puzzle/cmake-build-debug/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8Puzzle/cmake-build-debug/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8Puzzle/cmake-build-debug/CMakeFiles/3.19.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8Puzzle/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8Puzzle/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8Puzzle/cmake-build-debug/CMakeFiles/8Puzzle.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8Puzzle/cmake-build-debug/CMakeFiles/8Puzzle.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8Puzzle/cmake-build-debug/CMakeFiles/8Puzzle.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8Puzzle/cmake-build-debug/CMakeFiles/8Puzzle.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8Puzzle/cmake-build-debug/CMakeFiles/8Puzzle.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8Puzzle/cmake-build-debug/CMakeFiles/8Puzzle.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8Puzzle/cmake-build-debug/CMakeFiles/8Puzzle.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8Puzzle/cmake-build-debug/CMakeFiles/8Puzzle.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8Puzzle/cmake-build-debug/CMakeFiles/8Puzzle.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8Puzzle/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8Puzzle/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8Puzzle/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8Puzzle/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8Puzzle/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8Puzzle/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8Puzzle/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8Puzzle/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8Puzzle/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8Puzzle/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8Puzzle/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8Puzzle/Опасание на решението.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8PuzzleAI/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8PuzzleAI/.idea/8PuzzleAI.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8PuzzleAI/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8PuzzleAI/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8PuzzleAI/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8PuzzleAI/.~lock.Опасание на решението.odt#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8PuzzleAI/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8PuzzleAI/Header/CompareFunctorForAStar.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8PuzzleAI/Header/CompareFunctorForBestFirst.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8PuzzleAI/Header/Node.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8PuzzleAI/Header/Solver.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8PuzzleAI/Header/State.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8PuzzleAI/Source/CompareFunctorForAStar.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8PuzzleAI/Source/CompareFunctorForBestFirst.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8PuzzleAI/Source/Node.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8PuzzleAI/Source/Solver.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8PuzzleAI/Source/State.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8PuzzleAI/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8PuzzleAI/Опасание на решението.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8PuzzleHaskell/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8PuzzleHaskell/.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8PuzzleHaskell/8PuzzleHaskell.cabal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8PuzzleHaskell/ChangeLog.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8PuzzleHaskell/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8PuzzleHaskell/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8PuzzleHaskell/Setup.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8PuzzleHaskell/app/Main.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8PuzzleHaskell/package.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8PuzzleHaskell/src/Board.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8PuzzleHaskell/src/Lib.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8PuzzleHaskell/stack.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8PuzzleHaskell/stack.yaml.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../8PuzzleHaskell/test/Spec.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agda-2020-21" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/ClosestPointToCenter/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/ClosestPointToCenter/.idea/ClosestPointToCenter.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/ClosestPointToCenter/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/ClosestPointToCenter/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/ClosestPointToCenter/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/ClosestPointToCenter/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/ClosestPointToCenter/Point2D.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/ClosestPointToCenter/Point2D.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/ClosestPointToCenter/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/ClosestPointToCenter/cmake-build-debug/CMakeFiles/3.17.5/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/ClosestPointToCenter/cmake-build-debug/CMakeFiles/3.17.5/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/ClosestPointToCenter/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/ClosestPointToCenter/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/ClosestPointToCenter/cmake-build-debug/CMakeFiles/3.17.5/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/ClosestPointToCenter/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/ClosestPointToCenter/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/ClosestPointToCenter/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/ClosestPointToCenter/cmake-build-debug/CMakeFiles/ClosestPointToCenter.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/ClosestPointToCenter/cmake-build-debug/CMakeFiles/ClosestPointToCenter.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/ClosestPointToCenter/cmake-build-debug/CMakeFiles/ClosestPointToCenter.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/ClosestPointToCenter/cmake-build-debug/CMakeFiles/ClosestPointToCenter.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/ClosestPointToCenter/cmake-build-debug/CMakeFiles/ClosestPointToCenter.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/ClosestPointToCenter/cmake-build-debug/CMakeFiles/ClosestPointToCenter.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/ClosestPointToCenter/cmake-build-debug/CMakeFiles/ClosestPointToCenter.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/ClosestPointToCenter/cmake-build-debug/CMakeFiles/ClosestPointToCenter.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/ClosestPointToCenter/cmake-build-debug/CMakeFiles/ClosestPointToCenter.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/ClosestPointToCenter/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/ClosestPointToCenter/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/ClosestPointToCenter/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/ClosestPointToCenter/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/ClosestPointToCenter/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/ClosestPointToCenter/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/ClosestPointToCenter/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/ClosestPointToCenter/cmake-build-debug/ClosestPointToCenter" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/ClosestPointToCenter/cmake-build-debug/ClosestPointToCenter.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/ClosestPointToCenter/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/ClosestPointToCenter/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/ClosestPointToCenter/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Complex/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Complex/.idea/Complex.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Complex/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Complex/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Complex/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Complex/Complex.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Complex/Complex.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Complex/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Complex/cmake-build-debug/CMakeFiles/3.17.5/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Complex/cmake-build-debug/CMakeFiles/3.17.5/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Complex/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Complex/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Complex/cmake-build-debug/CMakeFiles/3.17.5/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Complex/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Complex/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Complex/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Complex/cmake-build-debug/CMakeFiles/Complex.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Complex/cmake-build-debug/CMakeFiles/Complex.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Complex/cmake-build-debug/CMakeFiles/Complex.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Complex/cmake-build-debug/CMakeFiles/Complex.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Complex/cmake-build-debug/CMakeFiles/Complex.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Complex/cmake-build-debug/CMakeFiles/Complex.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Complex/cmake-build-debug/CMakeFiles/Complex.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Complex/cmake-build-debug/CMakeFiles/Complex.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Complex/cmake-build-debug/CMakeFiles/Complex.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Complex/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Complex/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Complex/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Complex/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Complex/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Complex/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Complex/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Complex/cmake-build-debug/Complex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Complex/cmake-build-debug/Complex.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Complex/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Complex/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Complex/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Example1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Example1/.idea/Example1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Example1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Example1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Example1/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Example1/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Example1/cmake-build-debug/CMakeFiles/3.17.5/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Example1/cmake-build-debug/CMakeFiles/3.17.5/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Example1/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Example1/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Example1/cmake-build-debug/CMakeFiles/3.17.5/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Example1/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Example1/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Example1/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Example1/cmake-build-debug/CMakeFiles/Example1.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Example1/cmake-build-debug/CMakeFiles/Example1.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Example1/cmake-build-debug/CMakeFiles/Example1.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Example1/cmake-build-debug/CMakeFiles/Example1.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Example1/cmake-build-debug/CMakeFiles/Example1.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Example1/cmake-build-debug/CMakeFiles/Example1.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Example1/cmake-build-debug/CMakeFiles/Example1.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Example1/cmake-build-debug/CMakeFiles/Example1.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Example1/cmake-build-debug/CMakeFiles/Example1.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Example1/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Example1/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Example1/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Example1/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Example1/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Example1/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Example1/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Example1/cmake-build-debug/Example1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Example1/cmake-build-debug/Example1.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Example1/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Example1/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Example1/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/Tasks.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/untitled/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/untitled/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/untitled/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/untitled/.idea/untitled.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/untitled/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/untitled/Player.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/untitled/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/untitled/cmake-build-debug/CMakeFiles/3.17.5/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/untitled/cmake-build-debug/CMakeFiles/3.17.5/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/untitled/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/untitled/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/untitled/cmake-build-debug/CMakeFiles/3.17.5/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/untitled/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/untitled/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/untitled/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/untitled/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/untitled/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/untitled/cmake-build-debug/CMakeFiles/Progress/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/untitled/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/untitled/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/untitled/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/untitled/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/untitled/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/untitled/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/untitled/cmake-build-debug/CMakeFiles/untitled.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/untitled/cmake-build-debug/CMakeFiles/untitled.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/untitled/cmake-build-debug/CMakeFiles/untitled.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/untitled/cmake-build-debug/CMakeFiles/untitled.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/untitled/cmake-build-debug/CMakeFiles/untitled.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/untitled/cmake-build-debug/CMakeFiles/untitled.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/untitled/cmake-build-debug/CMakeFiles/untitled.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/untitled/cmake-build-debug/CMakeFiles/untitled.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/untitled/cmake-build-debug/CMakeFiles/untitled.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/untitled/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/untitled/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/untitled/cmake-build-debug/untitled" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/untitled/cmake-build-debug/untitled.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/untitled/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/01-oop-and-structs/untitled/test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/DynamiArrExample/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/DynamiArrExample/.idea/DynamiArrExample.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/DynamiArrExample/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/DynamiArrExample/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/DynamiArrExample/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/DynamiArrExample/DynamicArray.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/DynamiArrExample/DynamicArray.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/DynamiArrExample/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/DynamiArrExample/cmake-build-debug/CMakeFiles/3.17.5/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/DynamiArrExample/cmake-build-debug/CMakeFiles/3.17.5/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/DynamiArrExample/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/DynamiArrExample/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/DynamiArrExample/cmake-build-debug/CMakeFiles/3.17.5/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/DynamiArrExample/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/DynamiArrExample/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/DynamiArrExample/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/DynamiArrExample/cmake-build-debug/CMakeFiles/DynamiArrExample.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/DynamiArrExample/cmake-build-debug/CMakeFiles/DynamiArrExample.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/DynamiArrExample/cmake-build-debug/CMakeFiles/DynamiArrExample.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/DynamiArrExample/cmake-build-debug/CMakeFiles/DynamiArrExample.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/DynamiArrExample/cmake-build-debug/CMakeFiles/DynamiArrExample.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/DynamiArrExample/cmake-build-debug/CMakeFiles/DynamiArrExample.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/DynamiArrExample/cmake-build-debug/CMakeFiles/DynamiArrExample.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/DynamiArrExample/cmake-build-debug/CMakeFiles/DynamiArrExample.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/DynamiArrExample/cmake-build-debug/CMakeFiles/DynamiArrExample.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/DynamiArrExample/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/DynamiArrExample/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/DynamiArrExample/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/DynamiArrExample/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/DynamiArrExample/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/DynamiArrExample/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/DynamiArrExample/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/DynamiArrExample/cmake-build-debug/DynamiArrExample" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/DynamiArrExample/cmake-build-debug/DynamiArrExample.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/DynamiArrExample/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/DynamiArrExample/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/DynamiArrExample/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/exr2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/exr2/.idea/exr2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/exr2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/exr2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/exr2/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/exr2/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/exr2/cmake-build-debug/CMakeFiles/3.17.5/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/exr2/cmake-build-debug/CMakeFiles/3.17.5/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/exr2/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/exr2/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/exr2/cmake-build-debug/CMakeFiles/3.17.5/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/exr2/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/exr2/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/exr2/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/exr2/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/exr2/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/exr2/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/exr2/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/exr2/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/exr2/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/exr2/cmake-build-debug/CMakeFiles/exr2.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/exr2/cmake-build-debug/CMakeFiles/exr2.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/exr2/cmake-build-debug/CMakeFiles/exr2.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/exr2/cmake-build-debug/CMakeFiles/exr2.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/exr2/cmake-build-debug/CMakeFiles/exr2.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/exr2/cmake-build-debug/CMakeFiles/exr2.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/exr2/cmake-build-debug/CMakeFiles/exr2.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/exr2/cmake-build-debug/CMakeFiles/exr2.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/exr2/cmake-build-debug/CMakeFiles/exr2.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/exr2/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/exr2/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/exr2/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/exr2/cmake-build-debug/exr2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/exr2/cmake-build-debug/exr2.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/02-classes-and-big-four/exr2/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/03-big-four/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/03-big-four/StudentsAndTeachers/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/03-big-four/StudentsAndTeachers/.idea/StudentsAndTeachers.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/03-big-four/StudentsAndTeachers/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/03-big-four/StudentsAndTeachers/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/03-big-four/StudentsAndTeachers/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/03-big-four/StudentsAndTeachers/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/03-big-four/StudentsAndTeachers/Course.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/03-big-four/StudentsAndTeachers/Course.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/03-big-four/StudentsAndTeachers/DynamicArray.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/03-big-four/StudentsAndTeachers/DynamicArray.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/03-big-four/StudentsAndTeachers/RetiredTeacher.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/03-big-four/StudentsAndTeachers/RetiredTeacher.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/03-big-four/StudentsAndTeachers/Student.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/03-big-four/StudentsAndTeachers/Student.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/CMakeFiles/3.17.5/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/CMakeFiles/3.17.5/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/CMakeFiles/3.17.5/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/CMakeFiles/StudentsAndTeachers.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/CMakeFiles/StudentsAndTeachers.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/CMakeFiles/StudentsAndTeachers.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/CMakeFiles/StudentsAndTeachers.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/CMakeFiles/StudentsAndTeachers.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/CMakeFiles/StudentsAndTeachers.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/CMakeFiles/StudentsAndTeachers.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/CMakeFiles/StudentsAndTeachers.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/CMakeFiles/StudentsAndTeachers.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/StudentsAndTeachers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/StudentsAndTeachers.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/03-big-four/StudentsAndTeachers/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/03-big-four/StudentsAndTeachers/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/LinkedList/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/LinkedList/.idea/LinkedList.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/LinkedList/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/LinkedList/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/LinkedList/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/LinkedList/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/LinkedList/List.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/LinkedList/List.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/LinkedList/ListIterator.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/LinkedList/ListIterator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/LinkedList/Node.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/LinkedList/Node.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/LinkedList/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/LinkedList/cmake-build-debug/CMakeFiles/3.17.5/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/LinkedList/cmake-build-debug/CMakeFiles/3.17.5/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/LinkedList/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/LinkedList/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/LinkedList/cmake-build-debug/CMakeFiles/3.17.5/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/LinkedList/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/LinkedList/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/LinkedList/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/LinkedList/cmake-build-debug/CMakeFiles/LinkedList.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/LinkedList/cmake-build-debug/CMakeFiles/LinkedList.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/LinkedList/cmake-build-debug/CMakeFiles/LinkedList.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/LinkedList/cmake-build-debug/CMakeFiles/LinkedList.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/LinkedList/cmake-build-debug/CMakeFiles/LinkedList.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/LinkedList/cmake-build-debug/CMakeFiles/LinkedList.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/LinkedList/cmake-build-debug/CMakeFiles/LinkedList.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/LinkedList/cmake-build-debug/CMakeFiles/LinkedList.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/LinkedList/cmake-build-debug/CMakeFiles/LinkedList.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/LinkedList/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/LinkedList/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/LinkedList/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/LinkedList/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/LinkedList/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/LinkedList/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/LinkedList/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/LinkedList/cmake-build-debug/LinkedList" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/LinkedList/cmake-build-debug/LinkedList.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/LinkedList/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/LinkedList/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/LinkedList/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cs-2-practical/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forUploadSunday/test1-varA/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forUploadSunday/test1-varA/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forUploadSunday/test1-varA/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forUploadSunday/test1-varA/.idea/test1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forUploadSunday/test1-varA/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forUploadSunday/test1-varA/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forUploadSunday/test1-varA/Header/Registration.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forUploadSunday/test1-varA/Header/Vehicle.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forUploadSunday/test1-varA/Header/VehicleList.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forUploadSunday/test1-varA/Source/Registration.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forUploadSunday/test1-varA/Source/Vehicle.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forUploadSunday/test1-varA/Source/VehicleList.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forUploadSunday/test1-varA/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forUploadSunday/test1-varA/cmake-build-debug/CMakeFiles/3.19.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forUploadSunday/test1-varA/cmake-build-debug/CMakeFiles/3.19.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forUploadSunday/test1-varA/cmake-build-debug/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forUploadSunday/test1-varA/cmake-build-debug/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forUploadSunday/test1-varA/cmake-build-debug/CMakeFiles/3.19.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forUploadSunday/test1-varA/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forUploadSunday/test1-varA/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forUploadSunday/test1-varA/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forUploadSunday/test1-varA/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forUploadSunday/test1-varA/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forUploadSunday/test1-varA/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forUploadSunday/test1-varA/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forUploadSunday/test1-varA/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forUploadSunday/test1-varA/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forUploadSunday/test1-varA/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forUploadSunday/test1-varA/cmake-build-debug/CMakeFiles/test1.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forUploadSunday/test1-varA/cmake-build-debug/CMakeFiles/test1.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forUploadSunday/test1-varA/cmake-build-debug/CMakeFiles/test1.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forUploadSunday/test1-varA/cmake-build-debug/CMakeFiles/test1.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forUploadSunday/test1-varA/cmake-build-debug/CMakeFiles/test1.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forUploadSunday/test1-varA/cmake-build-debug/CMakeFiles/test1.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forUploadSunday/test1-varA/cmake-build-debug/CMakeFiles/test1.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forUploadSunday/test1-varA/cmake-build-debug/CMakeFiles/test1.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forUploadSunday/test1-varA/cmake-build-debug/CMakeFiles/test1.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forUploadSunday/test1-varA/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forUploadSunday/test1-varA/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forUploadSunday/test1-varA/cmake-build-debug/test1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forUploadSunday/test1-varA/cmake-build-debug/test1-varA.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forUploadSunday/test1-varA/cmake-build-debug/test1.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forUploadSunday/test1-varA/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forUploadSunday/varA.docx" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1t21GCmbtr1zRVALtFcAPd7XSz4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="cmake.loaded.for.project" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../12thDAAExr" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="13thExerciseDAA" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="13thExerciseDAA" TARGET_NAME="13thExerciseDAA" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="13thExerciseDAA" RUN_TARGET_NAME="13thExerciseDAA">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="17d9bc83-26d6-4fea-a7b5-d4307c7bcfc0" name="Default Changelist" comment="" />
+      <created>1621952271694</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621952271694</updated>
+      <workItem from="1621952274448" duration="8222000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
