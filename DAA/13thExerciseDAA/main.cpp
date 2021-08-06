@@ -30,7 +30,7 @@ public:
 
     void addEdge(int start, int end, int weight);
 
-    int kruskal();
+    std::vector<std::tuple<int, int, int>> kruskal();
 };
 
 Graph2::Graph2(int V) : V(V) {}
@@ -139,7 +139,7 @@ struct UnionFind {
 
 };
 
-int Graph2::kruskal() {
+std::vector<std::tuple<int, int, int>> Graph2::kruskal() {
     std::sort(edges.begin(), edges.end(),
               [](const std::tuple<int, int, int> &lhs, const std::tuple<int, int, int> &rhs) {
                   return std::get<2>(lhs) < std::get<2>(rhs);
@@ -148,6 +148,9 @@ int Graph2::kruskal() {
     int edgesIncluded = 0;
 
     UnionFind uf(V);
+    
+    std::vector<std::tuple<int, int, int>> mst;
+    mst.reserve(V);
 
     for (int i = 0; i < edges.size() && edgesIncluded < V - 1; ++i) {
         auto &curEdge = edges[i];
@@ -155,12 +158,13 @@ int Graph2::kruskal() {
         int dest = std::get<1>(curEdge);
         int weight = std::get<2>(curEdge);
 
-        if (uf.areInOneSet(start, dest))
-            continue;
-        uf.Union(start, dest);
-
-        std::cout << start << ' ' << dest << ' ' << weight << std::endl;
+        if (uf.areInOneSet(start, dest)) {
+            mst.push_back(curEdge);
+        } else {
+           uf.Union(start, dest);
+        }
     }
+    return mst;
 }
 
 int Graph::prim() {
